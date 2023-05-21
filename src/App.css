@@ -12,6 +12,10 @@
   color: white;
 }
 
+.dropdown-menu{
+  padding: 0;
+  background-color: lightgreen;
+}
 
 .basic-nav-dropdown{
   background-color: green;
@@ -19,6 +23,7 @@
 
 .navItem {
   background-color: lightgreen;
+  margin-top: 0.5rem;
 }
 
 .cartWidget {
