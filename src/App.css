@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+/*Nav Bar*/
 .navBar{
   background-color: green;
   width: 100%;
@@ -11,9 +12,6 @@
   color: white;
 }
 
-#navLink{
-  color: lightgreen;
-}
 
 .basic-nav-dropdown{
   background-color: green;
@@ -31,6 +29,7 @@
   color: lightgreen;
 }
 
+/*List Container*/
 .listContainer {
   font-size: 2rem;
   color: green;
