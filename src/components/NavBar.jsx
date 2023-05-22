@@ -9,12 +9,12 @@ const NavBar = () => {
     return (
     <Navbar className="navBar">
         <Container>
-        <Navbar.Brand id="navBrand">Warmi Sumaj tours</Navbar.Brand>
+        <Navbar.Brand id="navBrand">Warmi Sumaj Tours</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Excursiones</Nav.Link>
+            <Nav.Link className="navLink" href="#home">Home</Nav.Link>
+            <Nav.Link className="navLink" href="#link">Excursiones</Nav.Link>
             <NavDropdown title="Categorias" className="basic-nav-dropdown">
                 <NavDropdown.Item className="navItem" href="#action/3.1">Valle</NavDropdown.Item>
                 <NavDropdown.Item className="navItem" href="#action/3.2">Quebrada</NavDropdown.Item>

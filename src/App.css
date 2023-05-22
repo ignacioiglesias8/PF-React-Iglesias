@@ -8,7 +8,7 @@
   width: 100%;
 }
 
-#navBrand{
+.navbar-brand{
   color: white;
 }
 
@@ -19,6 +19,10 @@
 
 .basic-nav-dropdown{
   background-color: green;
+}
+
+.nav-link{
+  color: lightgreen;
 }
 
 .navItem {
