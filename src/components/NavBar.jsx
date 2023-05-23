@@ -4,12 +4,13 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import CartWidget from "./CartWidget";
+import logo from '../assets/logo.png';
 
 const NavBar = () => {
     return (
     <Navbar className="navBar">
         <Container>
-        <Navbar.Brand id="navBrand">Warmi Sumaj Tours</Navbar.Brand>
+        <Navbar.Brand id="navBrand"><img src={logo} alt="Main Logo" id="logo"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">

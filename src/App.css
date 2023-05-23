@@ -12,6 +12,10 @@
   color: white;
 }
 
+#logo{
+  width: 12em;
+}
+
 .dropdown-menu{
   padding: 0;
   background-color: lightgreen;
