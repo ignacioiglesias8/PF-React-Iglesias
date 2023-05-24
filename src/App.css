@@ -48,3 +48,44 @@
   color: green;
   margin: 20px; 
 }
+
+/*ItemCount*/
+.counter{
+  width: 12em;
+  margin: 1em;
+  padding: 1em;
+  border: 0.1em solid;
+  border-radius: 1.5em;
+  border-color: black;
+  align-items:center;
+  background-color: green;
+}
+
+.controls{
+  width: 100%;
+  justify-content:space-around;
+  margin-bottom: 1em;
+}
+
+.number{
+  min-width: 27px;
+  width: auto;
+  margin: 0.4em;
+  color: lightgreen;
+  font-size: 1em;
+}
+
+.button{
+  min-width: 27px;
+  margin: 0.4em;
+  background-color: lightgreen;
+}
+
+.controls .button{
+  border-radius: 100%;
+  font-size: 1.2em;
+}
+
+.agregar .button{
+  width: 150px;
+}

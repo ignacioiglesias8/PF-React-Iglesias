@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import NavBar from "./components/NavBar";
 import ItemListContainer from "./components/ItemListContainer";
+import ItemCount from './components/ItemCount';
 
 const App = () => {
 
@@ -9,6 +10,7 @@ const App = () => {
     <div className="App">
       <NavBar />
       <ItemListContainer greeting="Packs turísticos"/>
+      <ItemCount initial={0} stock={10} onAdd={(quantity) => console.log('cantidad agregada',quantity)}/>
     </div>
   );
 };
