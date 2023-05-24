@@ -22,9 +22,9 @@ const NavBar = () => {
                 <NavDropdown.Item className="navItem" href="#action/3.3">Yungas</NavDropdown.Item>
                 <NavDropdown.Item className="navItem" href="#action/3.4">Puna</NavDropdown.Item>
                 <NavDropdown title="Exterior" className="basic-nav-dropdown">
-                    <NavDropdown.Item className="navItem" href="#action/2.1">Tarija</NavDropdown.Item>
-                    <NavDropdown.Item className="navItem" href="#action/2.2">Atacama</NavDropdown.Item>
-                    </NavDropdown>
+                    <NavDropdown.Item className="navItem" href="#action/2.1">Bolivia</NavDropdown.Item>
+                    <NavDropdown.Item className="navItem" href="#action/2.2">Chile</NavDropdown.Item>
+                </NavDropdown>
             </NavDropdown>
             </Nav>
             <CartWidget />
