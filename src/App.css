@@ -46,10 +46,72 @@
 .listContainer {
   font-size: 2rem;
   color: green;
-  margin: 20px; 
+  margin: 0px; 
+}
+
+/*ItemList*/
+.listGroup{
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/*Item*/
+.card{
+  margin: 0.5em;
+  display: inline-block;
+}
+
+.card-img-top{
+  height: 6em;
+}
+
+.card-body{
+  background-color: lightgreen;
+  color: green;
+  justify-content: center;
+}
+
+.card-text{
+  font-size: 0.6em;
+  margin: 0.2em;
+}
+
+.card-text#descripcion{
+  font-style: italic;
+}
+
+.card-text#pasajeros{
+  font-size: 0.5em;
+}
+
+.card-text#precio{
+  font-weight: bold;
+}
+
+.buttonCard{
+  font-size: 0.6em;
+  height: 2em;
+  width: 6em;
+  border: 0.1em solid green;
+  border-radius: 10%;
+  background-color: green;
+  color: white;
+}
+
+.buttonCard:hover{
+  background-color: rgb(68, 135, 68);
 }
 
 /*ItemCount*/
+.contador{
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
 .counter{
   width: 12em;
   margin: 1em;

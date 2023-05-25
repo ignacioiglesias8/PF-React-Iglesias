@@ -10,7 +10,9 @@ const App = () => {
     <div className="App">
       <NavBar />
       <ItemListContainer greeting="Packs turísticos"/>
-      <ItemCount initial={0} stock={10} onAdd={(quantity) => console.log('cantidad agregada',quantity)}/>
+        <div className='contador'>
+          <ItemCount initial={0} stock={10} onAdd={(quantity) => console.log('cantidad agregada',quantity)}/>
+        </div>
     </div>
   );
 };

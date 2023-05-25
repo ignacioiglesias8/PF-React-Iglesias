@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import CartWidget from "./CartWidget";
-import logo from '../assets/logo.png';
+import logo from '../assets/img/logo.png';
 
 const NavBar = () => {
     return (
