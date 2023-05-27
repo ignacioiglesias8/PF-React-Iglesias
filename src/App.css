@@ -2,14 +2,10 @@
   text-align: center;
 }
 
-/*Nav Bar*/
+/*NavBar*/
 .navBar{
   background-color: green;
   width: 100%;
-}
-
-.navbar-brand{
-  color: white;
 }
 
 #logo{
@@ -46,21 +42,25 @@
 .listContainer {
   font-size: 2rem;
   color: green;
-  margin: 0px; 
+  margin: 1em 0em 1em 0em; 
 }
 
 /*ItemList*/
 .listGroup{
   width: 100%;
-  display: flex;
   justify-content:center;
-  align-items:center;
+  align-items: center;
 }
 
 /*Item*/
 .card{
   margin: 0.5em;
   display: inline-block;
+  width: 9em;
+}
+
+.card:hover{
+  opacity: 75%;
 }
 
 .card-img-top{
@@ -151,5 +151,3 @@
 .agregar .button{
   width: 150px;
 }
-
-/* probando cambio de nombre en el repo

@@ -1,7 +1,9 @@
 import elCarmen from "./assets/img/elcarmen.jpg";
 import sanSalvador from "./assets/img/sansalvador.jpg";
-import yalaReyes from "./assets/img/yalaReyes.jpg";
-import tiraxiLozano from "./assets/img/tiraxiLozano.jpg";
+import yala from "./assets/img/yala.jpg";
+import reyes from "./assets/img/reyes.jpg";
+import tiraxi from "./assets/img/tiraxi.jpg";
+import purmamarca from "./assets/img/purmamarca.jpg";
 
 const tours = [
     {
@@ -11,7 +13,7 @@ const tours = [
         subcategoria: 'Valle',
         precio: 1000,
         stock: 10,
-        imagen: {sanSalvador},
+        imagen: sanSalvador,
         descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
@@ -21,27 +23,47 @@ const tours = [
         subcategoria: 'Valle',
         precio: 1200,
         stock: 10,
-        imagen: {elCarmen},
+        imagen: elCarmen,
         descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
         id: '3',
-        nombre: 'Yala-Reyes',
+        nombre: 'Yala',
         categoria: 'Jujuy',
         subcategoria: 'Valle',
-        precio: 1500,
+        precio: 1300,
         stock: 10,
-        imagen: {yalaReyes},
+        imagen: yala,
         descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
         id: '4',
-        nombre: 'Tiraxi-Lozano',
+        nombre: 'Reyes',
+        categoria: 'Jujuy',
+        subcategoria: 'Valle',
+        precio: 1500,
+        stock: 10,
+        imagen: reyes,
+        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    },
+    {
+        id: '5',
+        nombre: 'Tiraxi',
         categoria: 'Jujuy',
         subcategoria: 'Valle',
         precio: 1200,
         stock: 10,
-        imagen: {tiraxiLozano},
+        imagen: tiraxi,
+        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    },
+    {
+        id: '6',
+        nombre: 'Purmamarca',
+        categoria: 'Jujuy',
+        subcategoria: 'Quebrada',
+        precio: 1500,
+        stock: 10,
+        imagen: purmamarca,
         descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
 ]
