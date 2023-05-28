@@ -16,6 +16,12 @@ import rinconada from "./assets/img/rinconada.jpg";
 import cusicusi from "./assets/img/cusicusi.jpg";
 import abdon from "./assets/img/abdon.jpg";
 import yavi from "./assets/img/yavi.jpg";
+import lasescaleras from "./assets/img/lasescaleras.jpg";
+import ocloyas from "./assets/img/ocloyas.jpg";
+import sanpedro from "./assets/img/sanpedro.jpg";
+import calilegua from "./assets/img/calilegua.jpg";
+import sanfrancisco from "./assets/img/sanfrancisco.jpg";
+import santaana from "./assets/img/santaana.jpg";
 
 const tours = [
     {
@@ -196,6 +202,66 @@ const tours = [
         precio: 3500,
         stock: 10,
         imagen: yavi,
+        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    },
+    {
+        id: '19',
+        nombre: 'Las Escaleras',
+        categoria: 'Jujuy',
+        subcategoria: 'Yungas',
+        precio: 1300,
+        stock: 10,
+        imagen: lasescaleras,
+        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    },
+    {
+        id: '20',
+        nombre: 'Ocloyas',
+        categoria: 'Jujuy',
+        subcategoria: 'Yungas',
+        precio: 1500,
+        stock: 10,
+        imagen: ocloyas,
+        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    },
+    {
+        id: '21',
+        nombre: 'San Pedro',
+        categoria: 'Jujuy',
+        subcategoria: 'Yungas',
+        precio: 1500,
+        stock: 10,
+        imagen: sanpedro,
+        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    },
+    {
+        id: '22',
+        nombre: 'Calilegua',
+        categoria: 'Jujuy',
+        subcategoria: 'Yungas',
+        precio: 2000,
+        stock: 10,
+        imagen: calilegua,
+        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    },
+    {
+        id: '23',
+        nombre: 'San Francisco',
+        categoria: 'Jujuy',
+        subcategoria: 'Yungas',
+        precio: 3000,
+        stock: 10,
+        imagen: sanfrancisco,
+        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    },
+    {
+        id: '24',
+        nombre: 'Santa Ana',
+        categoria: 'Jujuy',
+        subcategoria: 'Yungas',
+        precio: 3500,
+        stock: 10,
+        imagen: santaana,
         descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
 ]
