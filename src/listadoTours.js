@@ -273,3 +273,11 @@ export const getTours = () => {
         }, 3000)
     })
 }
+
+export const getTourById = (tourId) => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(tours.find(tour => tour.id === tourId))
+        }, 3000)
+    })
+}

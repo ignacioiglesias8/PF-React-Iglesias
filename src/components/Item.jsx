@@ -1,11 +1,10 @@
 import Card from 'react-bootstrap/Card';
 import Button from "./Button.jsx";
 
-const Item = ({id, nombre,categoria, precio, stock, imagen, descripcion}) => {
+const Item = ({id, nombre,categoria, subcategoria, precio, stock, imagen, descripcion}) => {
 
     return (
-        // además de className categoria, quisiera agregarle la clase subcategoria
-        <Card id={id} className={categoria}>
+        <Card id={id} className={categoria + " " + subcategoria}>
         <Card.Img variant="top" src={imagen} />
         <Card.Body>
             <Card.Title><h2>{nombre}</h2></Card.Title>

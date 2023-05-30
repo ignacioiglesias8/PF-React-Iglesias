@@ -8,7 +8,7 @@ import logo from '../assets/img/logo.png';
 
 const NavBar = () => {
     return (
-    <Navbar className="navBar">
+    <Navbar className="navBar" id="top">
         <Container>
         <Navbar.Brand id="navBrand"><img src={logo} alt="Main Logo" id="logo"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

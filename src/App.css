@@ -40,9 +40,28 @@
 
 /*List Container*/
 .listContainer {
+  width: 75%;
   font-size: 2rem;
   color: green;
   margin: 1em 0em 1em 0em; 
+  display: block;
+  float: left;
+}
+
+/*SideBar*/
+.sideBar{
+  width: 25%;
+  height: 100vh;
+  font-size: 2rem;
+  background-color: lightgreen;
+  color: green;
+  margin: 0em;
+  justify-content:center;
+  align-items: center;
+  display: block;
+  float: right;
+  right: 0;
+  padding-top: 1em;
 }
 
 /*ItemList*/
@@ -65,6 +84,10 @@
 
 .card-img-top{
   height: 6em;
+}
+
+.card-title h2{
+  font-size: 1.4em ;
 }
 
 .card-body{
@@ -113,11 +136,10 @@
 }
 
 .counter{
-  width: 12em;
-  margin: 1em;
-  padding: 1em;
-  border: 0.1em solid;
-  border-radius: 1.5em;
+  width: 9em;
+  margin: 0.5em;
+  border: 0.1em;
+  border-radius: 0.5em;
   border-color: black;
   align-items:center;
   background-color: green;
@@ -126,28 +148,60 @@
 .controls{
   width: 100%;
   justify-content:space-around;
-  margin-bottom: 1em;
+  margin-bottom: 0.1em;
 }
 
 .number{
-  min-width: 27px;
-  width: auto;
+  width: 1em;
   margin: 0.4em;
   color: lightgreen;
-  font-size: 1em;
+  font-size: 0.6em;
 }
 
 .button{
-  min-width: 27px;
+  width: 1.5em;
+  height: 1.5em;
+  padding: 0.1em;
   margin: 0.4em;
-  background-color: lightgreen;
-}
-
-.controls .button{
-  border-radius: 100%;
-  font-size: 1.2em;
+  font-size: 0.6em;
+  background-color: lightgrey;
+  border: 0.1em solid green;
+  border-radius: 10%;
 }
 
 .agregar .button{
-  width: 150px;
+  width: 9em;
+  height: 2em;
+}
+
+/*Footer*/
+.footer {
+  width: 100%;
+  height: 7em;
+  background-color: black;
+  color:#f8f9fa;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+  width: 30%;
+  margin-bottom: 0;
+  margin: 0em 2em;
+  display: flex;
+  align-items: right;
+}
+
+.footerLinks {
+  width: 65%;
+  margin-left: 15px;
+  display: flex;
+  align-items: left;
+  margin: 0em 5em;
+}
+
+.footerLinks a {
+  color: #f8f9fa;
 }
