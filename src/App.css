@@ -127,10 +127,37 @@
   padding-top: 1em;
 }
 
+/*SideBar*/
 .sideBar .card{
-  margin: 0.3em;
+  margin: 0.8em 0.3em;
   display: inline-block;
-  width: 7em;
+  width: 8em;
+}
+
+.sideBar .card-img-top{
+  height: 5em;
+}
+
+#cardSelectedTitle{
+  font-size: 1.2em ;
+}
+
+.sidebar .card-text{
+  margin: 0.1em;
+}
+
+.sideBar .card-text#descripcion{
+  font-style: italic;
+  font-size: 0.5em;
+}
+
+.sideBar .card-text#pasajeros{
+  font-size: 0.5em;
+}
+
+.card-text#precio{
+  font-weight: bold;
+  font-size: 0.6em;
 }
 
 /*ItemCount*/

@@ -7,7 +7,7 @@ const ItemSelected = ({id, nombre, categoria, subcategoria, precio, stock, image
         <Card id={id} className={categoria + " " + subcategoria}>
         <Card.Img variant="top" src={imagen} />
         <Card.Body>
-            <Card.Title><h2>{nombre}</h2></Card.Title>
+            <Card.Title><h2 id='cardSelectedTitle'>{nombre}</h2></Card.Title>
             <Card.Text id="descripcion">
                 {descripcion}
             </Card.Text>
