@@ -18,9 +18,9 @@ const ItemSelected = ({id, nombre, categoria, subcategoria, precio, stock, image
                 ${precio}
             </Card.Text>            
         </Card.Body>
-        <footer className="contador">
+        <counter className="contador">
             <ItemCount initial={0} stock={10} onAdd={(quantity) => console.log('cantidad agregada',quantity)}/>
-        </footer>
+        </counter>
         </Card>
     )
 }
