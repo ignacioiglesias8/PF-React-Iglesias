@@ -114,7 +114,7 @@
 /*SideBar*/
 .sideBar{
   width: 25%;
-  height: 100vh;
+  height: 268vmax;
   font-size: 2rem;
   background-color: lightgreen;
   color: green;
@@ -132,7 +132,7 @@
   margin: 0.8em 0.3em;
   display: inline-block;
   width: 8em;
-  border: 0;
+  border: 0 lightgreen;
 }
 
 .sideBar .card:hover{

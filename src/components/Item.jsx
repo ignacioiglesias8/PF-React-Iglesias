@@ -11,9 +11,6 @@ const Item = ({id, nombre,categoria, subcategoria, precio, stock, imagen, descri
             <Card.Text id="descripcion">
                 {descripcion}
             </Card.Text>
-            <Card.Text id="pasajeros">
-                Máx. pasajeros:{stock}
-            </Card.Text>
             <Card.Text id="precio">
                 ${precio}
             </Card.Text>
