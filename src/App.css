@@ -48,22 +48,6 @@
   float: left;
 }
 
-/*SideBar*/
-.sideBar{
-  width: 25%;
-  height: 100vh;
-  font-size: 2rem;
-  background-color: lightgreen;
-  color: green;
-  margin: 0em;
-  justify-content:center;
-  align-items: center;
-  display: block;
-  float: right;
-  right: 0;
-  padding-top: 1em;
-}
-
 /*ItemList*/
 .listGroup{
   width: 100%;
@@ -125,6 +109,28 @@
 
 .buttonCard:hover{
   background-color: rgb(68, 135, 68);
+}
+
+/*SideBar*/
+.sideBar{
+  width: 25%;
+  height: 100vh;
+  font-size: 2rem;
+  background-color: lightgreen;
+  color: green;
+  margin: 0em;
+  justify-content:center;
+  align-items: center;
+  display: block;
+  float: right;
+  right: 0;
+  padding-top: 1em;
+}
+
+.sideBar .card{
+  margin: 0.3em;
+  display: inline-block;
+  width: 7em;
 }
 
 /*ItemCount*/

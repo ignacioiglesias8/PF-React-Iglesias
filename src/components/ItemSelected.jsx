@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import ItemCount from './ItemCount';
 
-const Item = ({id, nombre,categoria, subcategoria, precio, stock, imagen, descripcion}) => {
+const ItemSelected = ({id, nombre, categoria, subcategoria, precio, stock, imagen, descripcion}) => {
 
     return (
         <Card id={id} className={categoria + " " + subcategoria}>
@@ -25,4 +25,4 @@ const Item = ({id, nombre,categoria, subcategoria, precio, stock, imagen, descri
     )
 }
 
-export default Item;
+export default ItemSelected;
