@@ -176,6 +176,7 @@
 
 .counter{
   width: 100%;
+  height: 2.5em;
   margin: 0;
   border-radius: 0.5em;
   background-color: green;
@@ -186,7 +187,7 @@
 .controls{
   width: 40%;
   height: 2em;
-  margin: 0.4em;
+  margin: 0.2em;
   display: flex;
   align-items: center;
   justify-content:space-around;
@@ -195,7 +196,7 @@
 .agregar{
   width: 55%;
   height: 2em;
-  margin: 0.4em;
+  margin: 0.2em;
   display: flex;
   align-items: center;
   justify-content:space-around;
@@ -204,7 +205,7 @@
 .number{
   width: 1em;
   height: 1.8em;
-  margin: 0.2em;
+  margin: 0;
   color: lightgreen;
   font-size: 0.6em;
 }
