@@ -22,6 +22,9 @@ import sanpedro from "./assets/img/sanpedro.jpg";
 import calilegua from "./assets/img/calilegua.jpg";
 import sanfrancisco from "./assets/img/sanfrancisco.jpg";
 import santaana from "./assets/img/santaana.jpg";
+import sanpedroatacama from "./assets/img/sanpedroatacama.jpg";
+import tupiza from "./assets/img/tupiza.jpg";
+import bermejo from "./assets/img/bermejo.jpg";
 
 const tours = [
     {
@@ -262,6 +265,36 @@ const tours = [
         precio: 3500,
         stock: 10,
         imagen: santaana,
+        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    },
+    {
+        id: '25',
+        nombre: 'San Pedro de Atacama',
+        categoria: 'Chile',
+        subcategoria: 'Atacama',
+        precio: 5000,
+        stock: 10,
+        imagen: sanpedroatacama,
+        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    },
+    {
+        id: '26',
+        nombre: 'Tupiza',
+        categoria: 'Bolivia',
+        subcategoria: 'Potosi',
+        precio: 5000,
+        stock: 10,
+        imagen: tupiza,
+        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    },
+    {
+        id: '27',
+        nombre: 'Bermejo',
+        categoria: 'Bolivia',
+        subcategoria: 'Tarija',
+        precio: 5000,
+        stock: 10,
+        imagen: bermejo,
         descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
 ]

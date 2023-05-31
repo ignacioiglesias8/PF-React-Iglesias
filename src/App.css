@@ -74,6 +74,10 @@
   font-size: 1.4em ;
 }
 
+.Atacama .card-body .card-title h2{
+  font-size: 1.2em ;
+}
+
 .card-body{
   background-color: lightgreen;
   color: green;
