@@ -160,7 +160,7 @@
   font-size: 0.5em;
 }
 
-.card-text#precio{
+.sideBar .card-text#precio{
   font-weight: bold;
   font-size: 0.6em;
 }
@@ -242,7 +242,6 @@
 
 .copyright {
   width: 30%;
-  margin-bottom: 0;
   margin: 0em 2em;
   display: flex;
   align-items: right;
@@ -250,7 +249,6 @@
 
 .footerLinks {
   width: 65%;
-  margin-left: 15px;
   display: flex;
   align-items: left;
   margin: 0em 5em;
