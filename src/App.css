@@ -38,6 +38,26 @@
   color: lightgreen;
 }
 
+/*Home*/
+#home {
+  width: 100%;
+  height: 30.1em;
+  background-image: url(./assets/img/portada.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 5em;
+  opacity: 90%;
+}
+
+#home #logo{
+  width: 20em;
+  float: right;
+  margin-right: 10em;
+  margin-top: 5em;
+  box-shadow:black;
+}
+
 /*List Container*/
 .listContainer {
   width: 100%;

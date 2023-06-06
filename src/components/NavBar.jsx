@@ -13,12 +13,11 @@ const NavBar = () => {
     return (
     <Navbar className="navBar" id="top">
         <Container>
-        <Navbar.Brand id="navBrand"><img src={logo} alt="Main Logo" id="logo"/></Navbar.Brand>
+        <Navbar.Brand id="navBrand"><Link to='/'><img src={logo} alt="Main Logo" id="logo"/></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-            <Nav.Link className="navLink" href="#home"><Link to='/'>Home</Link></Nav.Link>
-            <Nav.Link className="navLink" href="#link">Excursiones</Nav.Link>
+            <Nav.Link className="navLink"><Link to='/excursiones'>Excursiones</Link></Nav.Link>
             <NavDropdown title="Categorias" className="basic-nav-dropdown">
                 <NavDropdown.Item className="navItem" href="#action/3.1"><NavLink to={`/subcategoria/Valle`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Valle</NavLink></NavDropdown.Item>
                 <NavDropdown.Item className="navItem" href="#action/3.2">Quebrada</NavDropdown.Item>
