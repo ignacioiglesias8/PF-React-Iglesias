@@ -1,24 +1,28 @@
 import {useState, useEffect} from "react";
-import {getTours} from "../listadoTours";
+import {getTours, getTourBySubCategory} from "../listadoTours";
 import ItemList from "./ItemList";
+import {useParams} from 'react-router-dom';
 
-
-const ItemListContainer = ({ greeting }) => {
+const ItemListContainer = ({ title }) => {
     const [tours,setTours] = useState([])
+
+    const {subCategoryId} = useParams()
     
     useEffect(() => {
-        getTours()
-            .then(response =>{
-                setTours(response)
-            })
-            .catch (error => {
-                console.error(error)
-            })
-    }, [])
+        const asyncFunc = subCategoryId ? getTourBySubCategory : getTours
+
+    asyncFunc(subCategoryId)
+        .then(response => {
+            setTours(response)
+        })
+        .catch(error => {
+            console.error(error)
+        })
+    }, [subCategoryId])
     
     return (
     <div className="listContainer">
-        <h1>{greeting}</h1>
+        <h1>{title}</h1>
         <ItemList tours={tours}/>
     </div>
     );

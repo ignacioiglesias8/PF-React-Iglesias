@@ -40,7 +40,7 @@
 
 /*List Container*/
 .listContainer {
-  width: 75%;
+  width: 100%;
   font-size: 2rem;
   color: green;
   margin: 1em 0em 1em 0em; 
@@ -72,114 +72,147 @@
 
 .card-title h2{
   font-size: 1.4em ;
+  margin: 0.3em;
 }
 
-.Atacama .card-body .card-title h2{
+.Chile25 .card-body .card-title h2{
   font-size: 1.2em ;
+  margin: 0.45em 0.1em;
+}
+
+.Puna16 .card-body .card-title h2{
+  font-size: 1.2em ;
+  margin: 0.45em 0.1em;
 }
 
 .card-body{
   background-color: lightgreen;
   color: green;
+  align-items: center;
   justify-content: center;
-}
-
-.card-text{
-  font-size: 0.6em;
-  margin: 0.2em;
-}
-
-.card-text#descripcion{
-  font-style: italic;
 }
 
 .card-text#pasajeros{
   font-size: 0.5em;
+  margin: 0.4em;
+}
+
+.card-text#resumen{
+  font-style: italic;
+  font-size: 0.6em;
+}
+
+.cardBottom{
+  margin: 0.4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .card-text#precio{
+  height: 0.8em;
   font-weight: bold;
+  font-size: 0.8em;
+  line-height: 1.2em;
 }
 
-.buttonCard{
-  font-size: 0.6em;
-  height: 2em;
-  width: 6em;
-  border: 0.1em solid green;
-  border-radius: 10%;
-  background-color: green;
-  color: white;
-}
-
-.buttonCard:hover{
-  background-color: rgb(68, 135, 68);
-}
-
-/*SideBar*/
-.sideBar{
-  width: 25%;
-  height: 268vmax;
+/*ItemDescription*/
+.itemDescriptionContainer{
+  width: 95%;
+  height: auto;
   font-size: 2rem;
   background-color: lightgreen;
-  color: green;
-  margin: 0em;
+  margin: 1em;
   justify-content:center;
   align-items: center;
   display: block;
-  float: right;
-  right: 0;
-  padding-top: 1em;
 }
 
-/*SideBar*/
-.sideBar .card{
-  margin: 0.8em 0.3em;
+/*Description*/
+.itemDescriptionContainer .card{
+  width: 97%;
+  margin: 0.5em;
   display: inline-block;
-  width: 8em;
-  border: 0 lightgreen;
-}
-
-.sideBar .card:hover{
+  background-color: rgb(206, 251, 206);
+  border: 0;
   opacity: 100%;
 }
 
-.sideBar .card-img-top{
-  height: 5em;
+.itemDescriptionContainer .card .card-body{
+  background-color: rgb(206, 251, 206);
+}
+
+.cardBodyLeft{
+  width: 68%;
+  float: left;
+  margin: 0.2em;
+  height: auto;
+}
+
+.cardBodyRight{
+  width: 29%;
+  float: right;
+  margin: 0.2em;
+  height: auto;
+}
+
+.itemDescriptionContainer .card .card-body .card-title{
+  display: flex;
+  justify-content: left;
+  align-items:center;
+  margin: 0.2em;
 }
 
 #cardSelectedTitle{
-  font-size: 1.2em ;
+  font-size: 2em ;
 }
 
-.sidebar .card-text{
-  margin: 0.1em;
-}
-
-.sideBar .card-text#descripcion{
+.itemDescriptionContainer .card-text#descripcion{
   font-style: italic;
-  font-size: 0.5em;
+  font-size: 0.55em;
+  text-align: justify;
+  margin: 0.2em;
+  color: black;
 }
 
-.sideBar .card-text#pasajeros{
-  font-size: 0.5em;
+.itemDescriptionContainer .card-img-top{
+  width: 96%;
+  height: 6em;
+  margin: 0.5em 0.2em;
+  margin-top: 2em;
 }
 
-.sideBar .card-text#precio{
+.itemDescriptionContainer .card-text#precio{
+  height: 1.6em;
+  width: 96%;
+  margin: 0.5em 0.2em;
   font-weight: bold;
+  font-size: 1em;
+  line-height: 1.6em;
+  text-justify: center;
+}
+
+.itemDescriptionContainer .card-text#pasajeros{
+  height: 1.5em;
+  width: 96%;
+  margin: 0.2em;
   font-size: 0.6em;
+  line-height: 1.5em;
+  text-justify: center;
 }
 
 /*ItemCount*/
 .contador{
-  width: 8em;
+  width: 90%;
+  margin: 0.5em;
   display: flex;
   justify-content:center;
   align-items:center;
-  background-color: lightgreen;
+  background-color: rgb(206, 251, 206);
 }
 
 .counter{
-  width: 100%;
+  width: 8em;
   height: 2.5em;
   margin: 0;
   border-radius: 0.5em;
