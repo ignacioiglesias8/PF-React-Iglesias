@@ -7,8 +7,6 @@ import CartWidget from "./CartWidget";
 import logo from '../assets/img/logo.png';
 import {NavLink, Link} from 'react-router-dom'
 
-//<Navlink to={`/subcategoria/valle`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Valle</Navlink>
-
 const NavBar = () => {
     return (
     <Navbar className="navBar" id="top">

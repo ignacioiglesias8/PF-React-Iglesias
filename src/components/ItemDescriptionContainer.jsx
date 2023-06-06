@@ -20,7 +20,6 @@ const ItemDescriptionContainer = () => {
 
     return (
         <div className="itemDescriptionContainer">
-
             <Description {...pack}/>
         </div>
     );

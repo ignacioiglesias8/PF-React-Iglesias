@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 const Item = ({id, nombre, subcategoria, precio, stock, imagen, resumen}) => {
 
     return (
-<Link to={`/item/${id}`} className="verDetalle">
+    <Link to={`/item/${id}`} className="verDetalle">
         <Card id={id} className={subcategoria + " " + subcategoria + id}>
         <Card.Img variant="top" src={imagen} />
         <Card.Body>
@@ -22,7 +22,7 @@ const Item = ({id, nombre, subcategoria, precio, stock, imagen, resumen}) => {
             </div>
         </Card.Body>
         </Card>
-        </Link>
+    </Link>
     )
 }
 
