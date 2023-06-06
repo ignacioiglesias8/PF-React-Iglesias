@@ -4,7 +4,7 @@ import NavBar from "../components/NavBar";
 import ItemListContainer from "../components/ItemListContainer";
 import ItemDescriptionContainer from '../components/ItemDescriptionContainer';
 import Footer from '../components/Footer';
-import Home from "../pages/home";
+import Home from "../pages/Home";
 import Excursiones from '../pages/Excursiones';
 
 const MainRouter = () => {

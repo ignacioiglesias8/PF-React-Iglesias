@@ -417,7 +417,7 @@ export const getTourById = (tourId) => {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve(tours.find(tour => tour.id === tourId))
-        }, 2000)
+        }, 1000)
     })
 }
 
@@ -425,6 +425,6 @@ export const getTourBySubCategory = (tourSubcategory) => {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve(tours.find(tour => tour.subcategoria === tourSubcategory))
-        }, 2000)
+        }, 1000)
     })
 }
