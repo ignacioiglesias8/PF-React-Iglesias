@@ -7,7 +7,6 @@ const ItemListContainer = ({ title }) => {
     const [tours,setTours] = useState([])
 
     const {subCategoryId} = useParams()
-    console.log(subCategoryId)
 
     useEffect(() => {
         const asyncFunc = subCategoryId ? getTourBySubCategory : getTours
@@ -24,6 +23,7 @@ const ItemListContainer = ({ title }) => {
     return (
     <div className="listContainer">
         <h1>{title}</h1>
+        <h1>{subCategoryId}</h1>
         <ItemList tours={tours}/>
     </div>
     );
