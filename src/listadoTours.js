@@ -158,8 +158,28 @@ const tours = [
         precio: 1500,
         stock: 10,
         imagen: tiraxi,
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        descripcion: <p>
+        <b>Tiraxi</b> es una pequeña región del valle jujeño que concentra diversas actividades:
+        <br></br>:
+        <ul>Nos encontraremos a las 9am en la Plaza Belgrano para comenzar el viaje. La 
+            primera parada será en la entrada  de <b>León</b>, el último pueblo del valle antes
+            de entrar a la Quebrada de Humahuaca, para observar el <b>Mirador al Río Grande</b>.</ul>
+        <ul>Luego nos dirigiremos a <b>Jaire</b>, pasaremos por el pequeño poblado e iremos por
+            caminos serpenteantes hasta nuestro primer trekking por el <b>Angosto de Jaire</b>,
+            una angosta quebrada de paredes de granito negro producto del arroyo Manso.</ul>
+        <ul>Luego nos adentraremos en la <b>Reserva Natural Tiraxi</b> para conocer su naturaleza.
+            En la zona de camping, tomaremos un almuerzo liviano para recargar energías y continuar 
+            con el tour.</ul>
+        <ul>Mas adelante, realizaremos el segundo trekking, por medio de las yungas, que nos 
+            llevará a la <b>Cascada de Tiraxi</b>. A la vuelta, pasaremos por la <b>Comunidad 
+            Aborigen de Tiraxi</b> que nos contará su historia. 
+        </ul>
+        <ul>Antes de regresar, haremos una breve parada en <b>Lozano</b> para visitar unas de las
+            joyas gastronómicas de la provincia de Jujuy: <b>Flor del Pago</b>. Este restaurant 
+            italo-colonial, nos abrira las puertas para deleitarnos de una merienda gourmet.
+        </ul>
+            </p>,
+        resumen: 'Conexión con la naturaleza en el norte del valle',
     },
     {
         id: '6',
@@ -169,8 +189,27 @@ const tours = [
         precio: 2300,
         stock: 10,
         imagen: purmamarca,
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        descripcion: <p>
+        <b>Purmamarca</b> y sus alrededores nos muestran una infinidad de actividades:
+        <br></br>:
+        <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
+            iremos directamente a <b>Purmamarca</b> donde llegaremos a la Plaza Central para 
+            conocer su historia y visitar puntos claves como el Cabildo (el más pequeño de 
+            Argentina), la iglesia y el algarrobo histórico.</ul>
+        <ul>Luego nos dirigiremos a un pequeño trekking que rodea el majestuoso <b>Cerro de los
+            Siete Colores</b>. Comenzaremos por el mirador que se encuentra en el pueblo y 
+            conseguiremos rodearlo lentamente para apresiar su magia.</ul>
+        <ul>Luego nos adentraremos en el <b>Paseo de los Colorados</b>, un trekking de 3km
+            por otra increíble formación geológico que nos presenta una increíble variedad
+            de colores y contrastes.</ul>
+        <ul>De vuelta al pueblo, nos tomaremos tiempo para comer un típico almuerzo local para 
+            recargar energías y escuchar artistas folklóricos locales. También tendremos un
+            tiempo libre para que recorras la feria de artesanías y ropa de Purmamarca</ul>
+        <ul>Para finalizar el tour, iremos en trasporte hacia las <b>Salinas Grandes</b>, el salar 
+            más extenso que tiene Argentina. Al regreso, haremos una breve parada en el mirador de
+            la <b>Cuesta del Lipán</b> para obtener unas de las mejores fotos de tu viaje.</ul>
+            </p>,
+        resumen: 'Tour ideal para conocer una pintura hecha pueblo',
     },
     {
         id: '7',
@@ -180,8 +219,28 @@ const tours = [
         precio: 2300,
         stock: 10,
         imagen: maimara,
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        descripcion: <p>
+        Descubre la gastronomía de la Quebrada de Humahuaca en <b>Maimará</b>:
+        <br></br>:
+        <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
+            comenzaremos el viaje con destino a <b>Maimará</b> donde llegaremos a la Plaza 
+            Central para conocer su historia y subiremos al mirador para observar la <b>Paleta 
+            del Pintor</b>, la principal postal que debes tener del pueblo. </ul>
+        <ul>Luego, iremos al norte para comenzar un pequeño trekking a los <b>Castillos de
+            Huichaira</b> donde nos adentraremos el empinadas formaciones geológicos que se 
+            asemejan a los castillos góticos medievales.</ul>
+        <ul>Antes de ir a comer, tendremos tiempo para observar el <b>Puente Natural</b>,
+            un sendero natural formado en las alturas de los cerros y que preserva un paisajes
+            asombroso.</ul>
+        <ul>Pasado el mediodía, nos adentraremos en la zona de los viñedos. Maimará es muy
+            reconocida por su tierra fértil y su producción vitivinícola. Asi que será una buena 
+            excusa para realizar un pequeño recorrido por la <b>Bodega Dupont</b> para almorzar
+            y degustar sus vinos.</ul>
+        <ul>Para finalizar el tour, visitaremos Posta de Hornillos para descubir el <b>Sitio 
+            Arqueológico Posta de Hornillos</b>, un yacimiento arqueológico donde se pueden 
+            encontrar objetos y herramientas de la cultura precolombina.</ul>
+            </p>,
+        resumen: 'Un pack hecho para los cazadores del buen vino',
     },
     {
         id: '8',
@@ -191,7 +250,27 @@ const tours = [
         precio: 2500,
         stock: 10,
         imagen: tilcara,
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        descripcion: <p>
+        Sin duda <b>Tilcara</b> es uno de tus principales destinos para conocer la Quebrada:
+        <br></br>:
+        <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
+            comenzaremos el viaje con destino a <b>Tilcara</b>. Antes de conocer la ciudad,
+            iremos al <b>Pucará</b>, un sitio arqueológico donde se encontraba una antigua 
+            fortaleza. Además podremos visitar el <b>Jardín Botánico de Altura</b>.</ul>
+        <ul>Luego, iremos en transporte hacia la entrada de <b>Garganta del Diablo</b>. Allí
+            caminaremos unos metros hasta adentrarnos el cerro para conocer las cuevas y llegar a 
+            un salto escondido. También tendremos la oportunidad de apreciar una vista única.</ul>
+        <ul>De regreso al pueblo, nos detendremos al pie del <b>Cerro La Cruz</b> para realizar un
+            pequeño trekking hacia la cima. Desde allí podremos observar a Tilcara rodeada de un 
+            bellisimo paisaje.</ul>
+        <ul>A continuación, bajaremos directamente al pueblo para tener nuestro almuerzo en uno 
+            de los principales restaurant de la Quebrada de Humahuaca: <b>El Nuevo Progreso</b>.
+            Ahí mismo, el chef nos deleitara con algunas opciones de menués regionales para afinar
+            nuestro paladar.</ul>
+        <ul>Para finalizar el tour, tendrás un tiempo libre para recorrer <b>Tilcara</b> a tu gusto.
+            Sugerimos que des un paseo por las plazas centrales para conocer la iglesia, el mercado
+            central, la feria de artesanías o adentrarte a alguno de los museos.</ul>
+            </p>,
         resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
@@ -396,7 +475,7 @@ const tours = [
         id: '27',
         nombre: 'Bermejo',
         categoria: 'Exterior',
-        subcategoria: '<Bolivia>',
+        subcategoria: 'Bolivia',
         precio: 5000,
         stock: 10,
         imagen: bermejo,
@@ -421,10 +500,10 @@ export const getTourById = (tourId) => {
     })
 }
 
-export const getTourBySubCategory = (tourSubcategory) => {
+export const getTourBySubCategory = (subCategoryId) => {
     return new Promise((resolve) => {
         setTimeout(() => {
-            resolve(tours.find(tour => tour.subcategoria === tourSubcategory))
+            resolve(tours.filter(tour => tour.subcategoria === subCategoryId))
         }, 1000)
     })
 }

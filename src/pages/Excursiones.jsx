@@ -4,7 +4,7 @@ import ItemListContainer from "../components/ItemListContainer";
 const Excursiones = () => {
     return (
         <div>
-            <ItemListContainer/>
+            <ItemListContainer title="Todos los Tours"/>
         </div>
     );
 };

@@ -6,6 +6,7 @@ import ItemDescriptionContainer from '../components/ItemDescriptionContainer';
 import Footer from '../components/Footer';
 import Home from "../pages/Home";
 import Excursiones from '../pages/Excursiones';
+import { getTourBySubCategory } from "../listadoTours";
 
 const MainRouter = () => {
   return (
@@ -14,8 +15,8 @@ const MainRouter = () => {
         <Routes>
           <Route exact path="/" element= {<Home/>}/>
           <Route path="/excursiones" element= {<Excursiones/>}/> 
-          <Route path='/category/:subCategoryId' element= {<ItemListContainer title="Packs turísticos"/>}/> 
           <Route path='/item/:itemId' element= {<ItemDescriptionContainer/>}/> 
+          <Route path='/subcategoria/:subCategoryId' element={<ItemListContainer title={"tituloDeLaSubcategoria"} getTours={getTourBySubCategory} />}/> 
           <Route path='*' element= {<h1>Error</h1>}/> 
         </Routes>
         <Footer />  

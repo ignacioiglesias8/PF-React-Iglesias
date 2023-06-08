@@ -11,19 +11,19 @@ const NavBar = () => {
     return (
     <Navbar className="navBar" id="top">
         <Container>
-        <Navbar.Brand id="navBrand"><Link to='/'><img src={logo} alt="Main Logo" id="logo"/></Link></Navbar.Brand>
+        <Navbar.Brand href="/" id="navBrand"><img src={logo} alt="Main Logo" id="logo"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
             <Nav.Link className="navLink"><Link to='/excursiones'>Excursiones</Link></Nav.Link>
             <NavDropdown title="Categorias" className="basic-nav-dropdown">
                 <NavDropdown.Item className="navItem" href="#action/3.1"><NavLink to={`/subcategoria/Valle`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Valle</NavLink></NavDropdown.Item>
-                <NavDropdown.Item className="navItem" href="#action/3.2">Quebrada</NavDropdown.Item>
-                <NavDropdown.Item className="navItem" href="#action/3.3">Yungas</NavDropdown.Item>
-                <NavDropdown.Item className="navItem" href="#action/3.4">Puna</NavDropdown.Item>
+                <NavDropdown.Item className="navItem" href="#action/3.2"><NavLink to={`/subcategoria/Quebrada`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Quebrada</NavLink></NavDropdown.Item>
+                <NavDropdown.Item className="navItem" href="#action/3.3"><NavLink to={`/subcategoria/Yungas`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Yungas</NavLink></NavDropdown.Item>
+                <NavDropdown.Item className="navItem" href="#action/3.4"><NavLink to={`/subcategoria/Puna`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Puna</NavLink></NavDropdown.Item>
                 <NavDropdown title="Exterior" className="basic-nav-dropdown">
-                    <NavDropdown.Item className="navItem" href="#action/2.1">Bolivia</NavDropdown.Item>
-                    <NavDropdown.Item className="navItem" href="#action/2.2">Chile</NavDropdown.Item>
+                    <NavDropdown.Item className="navItem" href="#action/2.1"><NavLink to={`/subcategoria/Bolivia`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Bolivia</NavLink></NavDropdown.Item>
+                    <NavDropdown.Item className="navItem" href="#action/2.2"><NavLink to={`/subcategoria/Chile`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Chile</NavLink></NavDropdown.Item>
                 </NavDropdown>
             </NavDropdown>
             </Nav>

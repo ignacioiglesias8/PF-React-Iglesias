@@ -7,7 +7,8 @@ const ItemListContainer = ({ title }) => {
     const [tours,setTours] = useState([])
 
     const {subCategoryId} = useParams()
-    
+    console.log(subCategoryId)
+
     useEffect(() => {
         const asyncFunc = subCategoryId ? getTourBySubCategory : getTours
 
