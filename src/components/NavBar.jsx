@@ -21,7 +21,7 @@ const NavBar = () => {
                 <NavDropdown.Item className="navItem" href="#action/3.2"><NavLink to={`/subcategoria/Quebrada`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Quebrada</NavLink></NavDropdown.Item>
                 <NavDropdown.Item className="navItem" href="#action/3.3"><NavLink to={`/subcategoria/Yungas`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Yungas</NavLink></NavDropdown.Item>
                 <NavDropdown.Item className="navItem" href="#action/3.4"><NavLink to={`/subcategoria/Puna`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Puna</NavLink></NavDropdown.Item>
-                <NavDropdown title="Exterior" className="basic-nav-dropdown">
+                <NavDropdown title="Exterior" className="basic-nav-dropdown" id="submenu">
                     <NavDropdown.Item className="navItem" href="#action/2.1"><NavLink to={`/subcategoria/Bolivia`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Bolivia</NavLink></NavDropdown.Item>
                     <NavDropdown.Item className="navItem" href="#action/2.2"><NavLink to={`/subcategoria/Chile`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Chile</NavLink></NavDropdown.Item>
                 </NavDropdown>

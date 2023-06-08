@@ -20,9 +20,9 @@ const Description = ({id, nombre, subcategoria, precio, stock, imagen, descripci
                 <Card.Text id="pasajeros">
                     Máx. pasajeros: {stock}
                 </Card.Text>
-                <counter className="contador">
+                <div className="contador">
                 <ItemCount initial={0} stock={10} onAdd={(quantity) => console.log('cantidad agregada',quantity)}/>
-                </counter>
+                </div>
             </div>
         </Card.Body>
         </Card>

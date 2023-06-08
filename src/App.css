@@ -28,6 +28,13 @@
 .nav-link a{
   color: lightgreen;
   text-decoration: none;
+  padding: 1em 0em;
+  margin: 0em 1em;
+}
+
+#submenu {
+  margin-top: 1em;
+  margin-left: 1em;
 }
 
 .navItem {
@@ -36,6 +43,7 @@
 }
 
 .navItem a{
+  padding: 1em 2em;
   color: green;
   text-decoration: none;
 }

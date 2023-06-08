@@ -271,7 +271,7 @@ const tours = [
             Sugerimos que des un paseo por las plazas centrales para conocer la iglesia, el mercado
             central, la feria de artesanías o adentrarte a alguno de los museos.</ul>
             </p>,
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        resumen: 'También conocida como la joya de la Quebrada',
     },
     {
         id: '9',
@@ -281,8 +281,27 @@ const tours = [
         precio: 2500,
         stock: 10,
         imagen: uquia,
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        descripcion: <p>
+        Para conocer <b>Uquía</b>, el pequeño pueblo con increíble riquezas naturales y culturales:
+        <br></br>:
+        <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
+            partiremos con destino a <b>Yacoraite</b>, una comunidad aborigen que nos abrirán 
+            sus puertas para conocer su historia y su cultura.</ul>
+        <ul>Luego, nos adentraremos hasta el <b>Cerro de la Pollera Coya</b>. Una particular 
+            elevación geológica que nos pertirá realizar un pequeño ascenso para observar uno de
+            los paisajes más virgenes de la Quebrada de Humahuaca.</ul>
+        <ul>De vuelta a la ruta, llegaremos a <b>Uquía</b> donde tendremos la oportunidad de 
+            recorrer la pequeña plaza y la iglesia. Además de conocer la historia de este pequeño 
+            pueblo, nos detendremos a almorzar típicos platos jujeños para recargar energías.</ul>
+        <ul>A continuación, iremos a la <b>Quebrada de las Señoritas</b>, donde haremos un 
+            trekking de a través de un colorido recorrido. Caminaremos durante dos horas en un 
+            paisaje que varía entre el millón y los tres millones de años de antiguedad, 
+            conformadas además por cavernas y grietas tectónicas.</ul>
+        <ul>Para finalizar el tour, iremos ruta arriba para conocer el <b>Centro de Arte 
+            Guanuco</b> donde conoceremos esta ancestral forma de alfarería. Además de visitar la
+            tienda de artesanías, tendremos una rica merienda antes de emprender la vuelta.</ul>
+            </p>,
+        resumen: 'Un pequeño lugar con inmesas riquezas naturales',
     },
     {
         id: '10',
@@ -292,8 +311,28 @@ const tours = [
         precio: 2800,
         stock: 10,
         imagen: humahuaca,
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        descripcion: <p>
+        Para conocer el centro neurálgico de la Quebrada, te proponemos ir a Humahuaca:
+        <br></br>:
+        <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
+            partiremos directamente a la plaza central de <b>Humahuaca</b>. En este city tour
+            conoceremos el pequeño cabildo, la iglesia y el Monumento a los Héroes de la 
+            Independencia.</ul>
+        <ul>Luego, iremos a tener un almuerzo completo en la peña de <b>Ricardo Vilca</b>, una de 
+            las más emblemáticas de la ciudad para conocer su gastronomía y poder escuchar 
+            artistas folklóricos locales.</ul>
+        <ul>Retomando el recorrido, nos iremos cuesta arriba hacia los cerros para conocer <b>El 
+            Hornocal</b>, una majestuoza montaña con minerales de más de 14 colores. Esta
+            belleza podremos observala desde dos puntos diferentes.</ul>
+        <ul>A la vuelta, tendremos la oportunidad de pararnos en medio de la naturaleza para realizar
+            un pequeño trekking por el <b>Valle Escondido</b>. En este mini recorrido podremos 
+            conocer la fauna y la flora autóctona de la región, como también conocer la historia
+            de los pobladores originarios.</ul>
+        <ul>Para finalizar el tour, volveremos al pueblo donde tendremos una merienda norteña a
+            orillas del Río Grande. También te daremos tiempo para que recorras el pueblo por tu 
+            cuenta y puedas recorrer las tiendas de artesanías.</ul>
+            </p>,
+        resumen: 'El corazón de la Quebrada abierto a la diversidad',
     },
     {
         id: '11',
@@ -303,7 +342,27 @@ const tours = [
         precio: 2500,
         stock: 10,
         imagen: trescruces,
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        descripcion: <p>
+        Sin duda <b>Tilcara</b> es uno de tus principales destinos para conocer la Quebrada:
+        <br></br>:
+        <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
+            comenzaremos el viaje con destino a <b>Tilcara</b>. Antes de conocer la ciudad,
+            iremos al <b>Pucará</b>, un sitio arqueológico donde se encontraba una antigua 
+            fortaleza. Además podremos visitar el <b>Jardín Botánico de Altura</b>.</ul>
+        <ul>Luego, iremos en transporte hacia la entrada de <b>Garganta del Diablo</b>. Allí
+            caminaremos unos metros hasta adentrarnos el cerro para conocer las cuevas y llegar a 
+            un salto escondido. También tendremos la oportunidad de apreciar una vista única.</ul>
+        <ul>De regreso al pueblo, nos detendremos al pie del <b>Cerro La Cruz</b> para realizar un
+            pequeño trekking hacia la cima. Desde allí podremos observar a Tilcara rodeada de un 
+            bellisimo paisaje.</ul>
+        <ul>A continuación, bajaremos directamente al pueblo para tener nuestro almuerzo en uno 
+            de los principales restaurant de la Quebrada de Humahuaca: <b>El Nuevo Progreso</b>.
+            Ahí mismo, el chef nos deleitara con algunas opciones de menués regionales para afinar
+            nuestro paladar.</ul>
+        <ul>Para finalizar el tour, tendrás un tiempo libre para recorrer <b>Tilcara</b> a tu gusto.
+            Sugerimos que des un paseo por las plazas centrales para conocer la iglesia, el mercado
+            central, la feria de artesanías o adentrarte a alguno de los museos.</ul>
+            </p>,
         resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {

@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, useParams } from "react-router-dom";
 import NavBar from "../components/NavBar";
+import Footer from '../components/Footer';
 import ItemListContainer from "../components/ItemListContainer";
 import ItemDescriptionContainer from '../components/ItemDescriptionContainer';
-import Footer from '../components/Footer';
 import Home from "../pages/Home";
 import Excursiones from '../pages/Excursiones';
 import { getTourBySubCategory } from "../listadoTours";
