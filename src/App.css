@@ -25,14 +25,24 @@
   color: lightgreen;
 }
 
+.nav-link a{
+  color: lightgreen;
+  text-decoration: none;
+}
+
 .navItem {
   background-color: lightgreen;
-  margin-top: 0.5rem;
+  margin-top: 0.5em;
+}
+
+.navItem a{
+  color: green;
+  text-decoration: none;
 }
 
 .cartWidget {
   display: flex;
-  width: 35px;
+  width: 2.5em;
   justify-content: space-between;
   align-items: center;
   color: lightgreen;
@@ -54,7 +64,7 @@
   width: 20em;
   float: right;
   margin-right: 10em;
-  margin-top: 5em;
+  margin-top: 2em;
   box-shadow:black;
 }
 
