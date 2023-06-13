@@ -1,4 +1,4 @@
-import { createContext, useState} from 'react'
+import { createContext, useState, useMemo} from 'react'
 
 export const CartContext = createContext ({
     cart: []
@@ -30,8 +30,12 @@ export const CartProvider = ({children}) => {
         return cart.some(prod => prod.id === itemId)
     }
 
+    const contextValue = useMemo(() => {
+        return { cart, addItem, removeItem, clearCart };
+    }, [cart, addItem, removeItem, clearCart]);
+
     return (
-        <CartContext.Provider value={{ cart, addItem, removeItem, clearCart }}>
+        <CartContext.Provider value={contextValue}>
             {children}
         </CartContext.Provider>
     )
