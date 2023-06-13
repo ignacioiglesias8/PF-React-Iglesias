@@ -591,7 +591,7 @@ export const getTours = () => {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve(tours)
-        }, 2000)
+        }, 1000)
     })
 }
 

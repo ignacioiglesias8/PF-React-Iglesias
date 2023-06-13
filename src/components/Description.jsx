@@ -1,13 +1,22 @@
 import Card from 'react-bootstrap/Card';
 import ItemCount from './ItemCount';
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { CartContext } from '../context/CartContext';
 
 const Description = ({id, nombre, subcategoria, precio, stock, imagen, descripcion}) => {
     const [quantityAdded, setQuantityAdded]= useState (0)
 
+    const {addItem} = useContext(CartContext)
+
     const handleOnAdd = (quantity) => {
         setQuantityAdded(quantity)
+
+        const item = {
+            id, nombre, precio
+        }
+
+        addItem(item, quantity)
     }
 
     return (
@@ -15,9 +24,9 @@ const Description = ({id, nombre, subcategoria, precio, stock, imagen, descripci
         <Card.Body>
             <div className="cardBodyLeft">
                 <Card.Title><h2 id='cardSelectedTitle'>{nombre}</h2></Card.Title>
-                <Card.Text id="descripcion">
+                <div className="card-text" id="descripcion">
                     {descripcion}
-                </Card.Text>
+                </div>
             </div>
             <div className="cardBodyRight">
                 <Card.Img variant="top" src={imagen} />
