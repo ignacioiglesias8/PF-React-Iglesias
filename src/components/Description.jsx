@@ -1,7 +1,14 @@
 import Card from 'react-bootstrap/Card';
 import ItemCount from './ItemCount';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Description = ({id, nombre, subcategoria, precio, stock, imagen, descripcion}) => {
+    const [quantityAdded, setQuantityAdded]= useState (0)
+
+    const handleOnAdd = (quantity) => {
+        setQuantityAdded(quantity)
+    }
 
     return (
         <Card id={id} className={subcategoria}>
@@ -21,7 +28,13 @@ const Description = ({id, nombre, subcategoria, precio, stock, imagen, descripci
                     Máx. pasajeros: {stock}
                 </Card.Text>
                 <div className="contador">
-                <ItemCount initial={0} stock={10} onAdd={(quantity) => console.log('cantidad agregada',quantity)}/>
+                    {
+                        quantityAdded > 0 ? (
+                            <Link to='/cart' className='finalizar'>Terminar Compra</Link>
+                        ) :(
+                            <ItemCount initial={0} stock={stock} onAdd={handleOnAdd}/>
+                        )
+                    }
                 </div>
             </div>
         </Card.Body>

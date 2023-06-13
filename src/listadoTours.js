@@ -100,8 +100,8 @@ const tours = [
         imagen: yala,
         descripcion: <p>
         A poco kilomentros de la capital, el tour al <b>Parque Provincial Potrero de Yala</b> consiste 
-        en lo siguiente:
-        <br></br>:
+        en lo siguiente:<br></br>
+        <br></br>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. La 
             primera parada será en la <b>Plaza Central de Yala</b> donde nos acercaremos al 
             encuentro del Río Grande y el Río Yala para observar una increíble vista panorámica.</ul>
@@ -129,8 +129,8 @@ const tours = [
         stock: 10,
         imagen: reyes,
         descripcion: <p>
-        Las <b>Termas de Reyes</b> se han convertido en un destino turístico popular de Jujuy en el cual:
-        <br></br>:
+        Las <b>Termas de Reyes</b> se han convertido en un destino turístico popular de Jujuy en el cual:<br></br>
+        <br></br>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. La 
             primera parada será en <b>Villa Jardín de Reyes</b> donde nos caminaremos el centro
             del pueblo para conocer su historia.</ul>
@@ -159,8 +159,8 @@ const tours = [
         stock: 10,
         imagen: tiraxi,
         descripcion: <p>
-        <b>Tiraxi</b> es una pequeña región del valle jujeño que concentra diversas actividades:
-        <br></br>:
+        <b>Tiraxi</b> es una pequeña región del valle jujeño que concentra diversas actividades:<br></br>
+        <br></br>
         <ul>Nos encontraremos a las 9am en la Plaza Belgrano para comenzar el viaje. La 
             primera parada será en la entrada  de <b>León</b>, el último pueblo del valle antes
             de entrar a la Quebrada de Humahuaca, para observar el <b>Mirador al Río Grande</b>.</ul>
@@ -190,8 +190,8 @@ const tours = [
         stock: 10,
         imagen: purmamarca,
         descripcion: <p>
-        <b>Purmamarca</b> y sus alrededores nos muestran una infinidad de actividades:
-        <br></br>:
+        <b>Purmamarca</b> y sus alrededores nos muestran una infinidad de actividades:<br></br>
+        <br></br>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
             iremos directamente a <b>Purmamarca</b> donde llegaremos a la Plaza Central para 
             conocer su historia y visitar puntos claves como el Cabildo (el más pequeño de 
@@ -220,8 +220,8 @@ const tours = [
         stock: 10,
         imagen: maimara,
         descripcion: <p>
-        Descubre la gastronomía de la Quebrada de Humahuaca en <b>Maimará</b>:
-        <br></br>:
+        Descubre la gastronomía de la Quebrada de Humahuaca en <b>Maimará</b>:<br></br>
+        <br></br>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
             comenzaremos el viaje con destino a <b>Maimará</b> donde llegaremos a la Plaza 
             Central para conocer su historia y subiremos al mirador para observar la <b>Paleta 
@@ -251,8 +251,8 @@ const tours = [
         stock: 10,
         imagen: tilcara,
         descripcion: <p>
-        Sin duda <b>Tilcara</b> es uno de tus principales destinos para conocer la Quebrada:
-        <br></br>:
+        Sin duda <b>Tilcara</b> es uno de tus principales destinos para conocer la Quebrada:<br></br>
+        <br></br>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
             comenzaremos el viaje con destino a <b>Tilcara</b>. Antes de conocer la ciudad,
             iremos al <b>Pucará</b>, un sitio arqueológico donde se encontraba una antigua 
@@ -282,8 +282,8 @@ const tours = [
         stock: 10,
         imagen: uquia,
         descripcion: <p>
-        Para conocer <b>Uquía</b>, el pequeño pueblo con increíble riquezas naturales y culturales:
-        <br></br>:
+        Para conocer <b>Uquía</b>, el pequeño pueblo con increíble riquezas naturales y culturales:<br></br>
+        <br></br>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
             partiremos con destino a <b>Yacoraite</b>, una comunidad aborigen que nos abrirán 
             sus puertas para conocer su historia y su cultura.</ul>
@@ -312,8 +312,8 @@ const tours = [
         stock: 10,
         imagen: humahuaca,
         descripcion: <p>
-        Para conocer el centro neurálgico de la Quebrada, te proponemos ir a Humahuaca:
-        <br></br>:
+        Para conocer el centro neurálgico de la Quebrada, te proponemos ir a Humahuaca:<br></br>
+        <br></br>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
             partiremos directamente a la plaza central de <b>Humahuaca</b>. En este city tour
             conoceremos el pequeño cabildo, la iglesia y el Monumento a los Héroes de la 
@@ -343,27 +343,29 @@ const tours = [
         stock: 10,
         imagen: trescruces,
         descripcion: <p>
-        Sin duda <b>Tilcara</b> es uno de tus principales destinos para conocer la Quebrada:
-        <br></br>:
-        <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
-            comenzaremos el viaje con destino a <b>Tilcara</b>. Antes de conocer la ciudad,
-            iremos al <b>Pucará</b>, un sitio arqueológico donde se encontraba una antigua 
-            fortaleza. Además podremos visitar el <b>Jardín Botánico de Altura</b>.</ul>
-        <ul>Luego, iremos en transporte hacia la entrada de <b>Garganta del Diablo</b>. Allí
-            caminaremos unos metros hasta adentrarnos el cerro para conocer las cuevas y llegar a 
-            un salto escondido. También tendremos la oportunidad de apreciar una vista única.</ul>
-        <ul>De regreso al pueblo, nos detendremos al pie del <b>Cerro La Cruz</b> para realizar un
-            pequeño trekking hacia la cima. Desde allí podremos observar a Tilcara rodeada de un 
-            bellisimo paisaje.</ul>
-        <ul>A continuación, bajaremos directamente al pueblo para tener nuestro almuerzo en uno 
-            de los principales restaurant de la Quebrada de Humahuaca: <b>El Nuevo Progreso</b>.
-            Ahí mismo, el chef nos deleitara con algunas opciones de menués regionales para afinar
-            nuestro paladar.</ul>
-        <ul>Para finalizar el tour, tendrás un tiempo libre para recorrer <b>Tilcara</b> a tu gusto.
-            Sugerimos que des un paseo por las plazas centrales para conocer la iglesia, el mercado
-            central, la feria de artesanías o adentrarte a alguno de los museos.</ul>
+        El pueblo de <b>Tres Cruces</b> y sus alrededores se convirtieron en un nuevo atractivo:<br></br>
+        <br></br>
+        <ul>Nos encontraremos a las 8am en la Plaza Belgrano para comenzar el viaje. De allí,
+            iremos viajaremos a unos kilometros cerca de nuestro destino para conocer el norte
+            de la Quebrada. En este punto, caminaremos a través del cause del <b>Río Grande</b>, 
+            hasta su nacimiento, para contemplar su belleza.</ul>
+        <ul>Llegaremos al antiguo puente del ferrocarril donde nos esperarán nuestros guías para
+            realizar una excursión a cabello a través de la <b>Quebrada Chulín</b>. En este 
+            recorrido podremos observar la flora y la fauna silvestre, así como respirar el abierto
+            puro de las montañas.</ul>
+        <ul>Al final del camino, haremos un breve camino hasta <b>Inca Cueva</b>, una cueva donde
+            los antiguos pobladores, los Humahuaca, dejaron su arte grabado en las paredes. Además
+            de conocer este hallazgo antropológico, tendrás tiempo para recorrer los cerros, el oasis
+            y el Cerro de la Ventana para obtener fotos increíbles.</ul>
+        <ul>A continuación, retomaremos camino hacia <b>Tres Cruces</b> donde nos estarán esperando
+            con un tradicional asado de campo al pie de los <b>Gigantes Dormidos</b>, una formación
+            geológico que puede observarse a simple vista desde la ruta. Solo que lo podremos hacer 
+            bien de cerca.</ul>
+        <ul>Antes de volver, haremos un trekking más. En transporte iremos al pie de los Gigantes
+            y caminaremos a través de estos majestuosos cerros para llegar al <b>Puente del 
+            Diablo</b>. Un sendero natural que se encuentra en plena conservación.</ul>
             </p>,
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        resumen: 'Lugares desconocidos y naturaleza inexplorada',
     },
     {
         id: '12',
@@ -373,7 +375,29 @@ const tours = [
         precio: 2500,
         stock: 10,
         imagen: abrapampa,
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        descripcion: <p>
+        El pueblo de <b>Tres Cruces</b> y sus alrededores se convirtieron en un nuevo atractivo:<br></br>
+        <br></br>
+        <ul>Nos encontraremos a las 8am en la Plaza Belgrano para comenzar el viaje. De allí,
+            iremos viajaremos a unos kilometros cerca de nuestro destino para conocer el norte
+            de la Quebrada. En este punto, caminaremos a través del cause del <b>Río Grande</b>, 
+            hasta su nacimiento, para contemplar su belleza.</ul>
+        <ul>Llegaremos al antiguo puente del ferrocarril donde nos esperarán nuestros guías para
+            realizar una excursión a cabello a través de la <b>Quebrada Chulín</b>. En este 
+            recorrido podremos observar la flora y la fauna silvestre, así como respirar el abierto
+            puro de las montañas.</ul>
+        <ul>Al final del camino, haremos un breve camino hasta <b>Inca Cueva</b>, una cueva donde
+            los antiguos pobladores, los Humahuaca, dejaron su arte grabado en las paredes. Además
+            de conocer este hallazgo antropológico, tendrás tiempo para recorrer los cerros, el oasis
+            y el Cerro de la Ventana para obtener fotos increíbles.</ul>
+        <ul>A continuación, retomaremos camino hacia <b>Tres Cruces</b> donde nos estarán esperando
+            con un tradicional asado de campo al pie de los <b>Gigantes Dormidos</b>, una formación
+            geológico que puede observarse a simple vista desde la ruta. Solo que lo podremos hacer 
+            bien de cerca.</ul>
+        <ul>Antes de volver, haremos un trekking más. En transporte iremos al pie de los Gigantes
+            y caminaremos a través de estos majestuosos cerros para llegar al <b>Puente del 
+            Diablo</b>. Un sendero natural que se encuentra en plena conservación.</ul>
+            </p>,
         resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
@@ -446,23 +470,62 @@ const tours = [
         id: '19',
         nombre: 'Las Escaleras',
         categoria: 'Jujuy',
-        subcategoria: 'Yungas',
+        subcategoria: 'Valle',
         precio: 1300,
         stock: 10,
         imagen: lasescaleras,
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        descripcion: <p>
+        A pocos kilometros de la capital, el valle sigue creando destinos turísticos:<br></br>
+        <br></br>
+        <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. En primer
+            lugar, partiremos hasta la ciudad de <b>Palpalá</b> para conocer el pintoresco centro
+            de un ciudad con mucha historia industrial y cultural.</ul>
+        <ul>Desde este punto, comenzaremos la travesía por las Serranías de Zapla. Cruzaremos el
+            Río Grande para llegar <b>Los Blancos</b> donde haremos un pequeño tour a caballo para
+            contemplar la flora y la fauna del lugar.</ul>
+        <ul>Luego nos adentraremos hasta <b>Las Capillas</b> donde haremos un trekking por caminos
+            que combinan la belleza del valle y las yungas. Al finalizar, la comunidad del lugar
+            nos esperará para almorzar y compartir sus historias.</ul>
+        <ul>A continuación, llegaremos al paraje de <b>Las Escaleras</b> donde encontraremos la 
+            paz a través del silencio de las montañas y el agua de las cascádas. Tendremos tiempo
+            libre para disfrutar de este maravilloso entorno natural.</ul>
+        <ul>De vuelta a la capital, tomaremos otro camino que nos llevará al barrio salvadoreño de
+            Alto La Viña. Allí visitaremos el <b>Hotel Alto La Viña</b>, donde tomaremos la merienda
+            con una increíble vista al valle donde se encuentra San Salvador.</ul>
+            </p>,
+        resumen: 'Un enclave totalmente natural entre el valle y las yungas',
     },
     {
         id: '20',
         nombre: 'Ocloyas',
         categoria: 'Jujuy',
-        subcategoria: 'Yungas',
+        subcategoria: 'Valle',
         precio: 1500,
         stock: 10,
         imagen: ocloyas,
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        descripcion: <p>
+        El paraje de <b>Ocloyas</b> se ubica en un corredor lleno de emprendimientos familiares:<br></br>
+        <br></br>
+        <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
+            al barrio salvadoreño de Los Perales para adentrarnos en el <b>Parque Botánico 
+            Municipal</b>. En esta pequeña caminata podremos conocer, a través de nuestro
+            guía, las diferencias entre el valle y la yunga jujeña.</ul>
+        <ul>Luego continuaremos hasta el paraje <b>Tilquiza</b> donde podremos visitar algunos
+            emprendimientos turísticos familiares como la reserva de Tucanes y Parque de Estudio 
+            y Reflexión.</ul>
+        <ul>Más adelante, pasaremos por algunas cáscadas que empiezan a dar una imagen más 
+            selvática de Jujuy. Llegaremos a <b>Corral de Piedras</b> donde descansaremos y 
+            almorzaremos en una finca familiar.</ul>
+        <ul>Siguiendo la travesía, llegaremos a <b>Ocloyas</b>, en una zona montañosa de clima 
+            templado, perteneciente a las Serranías de Zapla. Además de conocer el último pueblo
+            del corredor, continuaremos un tramo a caballo y otro tanto a pie para llegar 
+            al <b>Angosto de Catre</b>.</ul>
+        <ul>De vuelta a la ciudad, nos detendremos antes de llegar para tener una deliciosa 
+            merienda en <b>Finca La Colorada</b>, un emprendimiento gastrónomico reconocido por su
+            casa de té.
+        </ul>
+            </p>,
+        resumen: 'Turismo familair a lo largo de las Serranías de Zapla',
     },
     {
         id: '21',

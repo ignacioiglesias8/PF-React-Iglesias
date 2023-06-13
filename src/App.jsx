@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
-import MainRouter from './router/mainrouter';
+import MainRouter from './router/MainRouter';
 
 const App = () => {
 
