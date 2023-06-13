@@ -39,10 +39,9 @@ const tours = [
         precio: 1000,
         stock: 10,
         imagen: sanSalvador,
-        descripcion: <p>
+        descripcion: <div><p>
         En este tour visitaremos los lugares turísticos más destacados de <b>San Salvador de 
-            Jujuy</b>:<br></br>
-        <br></br>
+            Jujuy</b>:</p>
         <ul>Nos encontraremos a las 8am en la <b>Plaza Belgrano</b>, corazón de la ciudad, para 
             conocer importantes edificios históricos como la casa de Gobierno, el Cabildo 
             de Jujuy y el monumento al General Manuel Belgrano.</ul>
@@ -58,7 +57,7 @@ const tours = [
             de los Andes de fondo.</ul>
         <ul>Para cerrar este tour, disfrutaremos de un menú tipicamente regional en <b>Viracocha</b>,
             un emblema gastronómico de la ciudad.</ul>
-            </p>,
+            </div>,
         resumen: 'Capital con una cultura y naturaleza vibrante',
     },
     {
@@ -69,9 +68,8 @@ const tours = [
         precio: 1300,
         stock: 10,
         imagen: elCarmen,
-        descripcion: <p>
-        Viajeramos al sur de la provincia para conocer los paisajes que rodean <b>El Carmen</b>:<br></br>
-        <br></br>
+        descripcion: <div><p>
+        Viajeramos al sur de la provincia para conocer los paisajes que rodean <b>El Carmen</b>:</p>
         <ul>Nos encontraremos a las 9am en la Plaza Belgrano para comenzar el viaje. Nuestra 
             primer parada será el <b>Dique Las Maderas</b> donde realizaremos un trekking hasta
             llegar al pequeño puerto. Allí saldremos el bote a recorrer rincones increíbles del dique.</ul>
@@ -85,9 +83,8 @@ const tours = [
             río, podremos recorrer el centro del pueblo y su mercado de artesanías.</ul>
         <ul>Por último, iremos a la ciudad de <b>El Carmen</b> para recorrer su pequeña plaza y finalizar el 
             día en el buñuelódromo. Nadie puede volverse de este tour sin probar los bueñuelos con miel
-            de caña, un clásico de la provincia.
-        </ul>
-            </p>,
+            de caña, un clásico de la provincia.</ul>
+            </div>,
         resumen: 'Ríos cristalinos y cerros verdes en el corazón del valle',
     },
     {
@@ -98,10 +95,9 @@ const tours = [
         precio: 1500,
         stock: 10,
         imagen: yala,
-        descripcion: <p>
+        descripcion: <div><p>
         A poco kilomentros de la capital, el tour al <b>Parque Provincial Potrero de Yala</b> consiste 
-        en lo siguiente:<br></br>
-        <br></br>
+        en lo siguiente:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. La 
             primera parada será en la <b>Plaza Central de Yala</b> donde nos acercaremos al 
             encuentro del Río Grande y el Río Yala para observar una increíble vista panorámica.</ul>
@@ -115,9 +111,8 @@ const tours = [
         <ul>Seguiremos unos kilometros, pasaremos por la laguna <b>Comedero</b> y llegaremos a la
             posta para realizar la excursión a caballo hacia la cáscada <b>La Horqueta</b>.</ul>
         <ul>Para finalizar, retomaremos la vuelta hacia San Salvador pero antes, pasaremos por <b>Los 
-            Nogales</b> para merienda típica jujeña: Api con buñuelos.
-        </ul>
-            </p>,
+            Nogales</b> para merienda típica jujeña: Api con buñuelos.</ul>
+            </div>,
         resumen: 'Las Lagunas de Yala, recorrido obligatorio si visitas Jujuy',
     },
     {
@@ -128,9 +123,8 @@ const tours = [
         precio: 1700,
         stock: 10,
         imagen: reyes,
-        descripcion: <p>
-        Las <b>Termas de Reyes</b> se han convertido en un destino turístico popular de Jujuy en el cual:<br></br>
-        <br></br>
+        descripcion: <div><p>
+        Las <b>Termas de Reyes</b> se han convertido en un destino turístico popular de Jujuy en el cual:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. La 
             primera parada será en <b>Villa Jardín de Reyes</b> donde nos caminaremos el centro
             del pueblo para conocer su historia.</ul>
@@ -145,9 +139,8 @@ const tours = [
             el tour.</ul>
         <ul>Unas vez que realicemos la correcta digestión, tendremos tiempo cumplir nuestro objetivo:
             Relajarnos en las aguas termales de Reyes. Para ello tendremos tiempo hasta el retorno en
-            el <b>Complejo Qubrada Termal</b>, el cual cuenta con servicio de barra y cafatería (no incluido).
-        </ul>
-            </p>,
+            el <b>Complejo Qubrada Termal</b>, el cual cuenta con servicio de barra y cafatería (no incluido).</ul>
+            </div>,
         resumen: 'Relax con aguas termales curativas y entorno natural',
     },
     {
@@ -158,9 +151,8 @@ const tours = [
         precio: 1500,
         stock: 10,
         imagen: tiraxi,
-        descripcion: <p>
-        <b>Tiraxi</b> es una pequeña región del valle jujeño que concentra diversas actividades:<br></br>
-        <br></br>
+        descripcion: <div><p>
+        <b>Tiraxi</b> es una pequeña región del valle jujeño que concentra diversas actividades:</p>
         <ul>Nos encontraremos a las 9am en la Plaza Belgrano para comenzar el viaje. La 
             primera parada será en la entrada  de <b>León</b>, el último pueblo del valle antes
             de entrar a la Quebrada de Humahuaca, para observar el <b>Mirador al Río Grande</b>.</ul>
@@ -176,9 +168,8 @@ const tours = [
         </ul>
         <ul>Antes de regresar, haremos una breve parada en <b>Lozano</b> para visitar unas de las
             joyas gastronómicas de la provincia de Jujuy: <b>Flor del Pago</b>. Este restaurant 
-            italo-colonial, nos abrira las puertas para deleitarnos de una merienda gourmet.
-        </ul>
-            </p>,
+            italo-colonial, nos abrira las puertas para deleitarnos de una merienda gourmet.</ul>
+            </div>,
         resumen: 'Conexión con la naturaleza en el norte del valle',
     },
     {
@@ -189,9 +180,8 @@ const tours = [
         precio: 2300,
         stock: 10,
         imagen: purmamarca,
-        descripcion: <p>
-        <b>Purmamarca</b> y sus alrededores nos muestran una infinidad de actividades:<br></br>
-        <br></br>
+        descripcion: <div><p>
+        <b>Purmamarca</b> y sus alrededores nos muestran una infinidad de actividades:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
             iremos directamente a <b>Purmamarca</b> donde llegaremos a la Plaza Central para 
             conocer su historia y visitar puntos claves como el Cabildo (el más pequeño de 
@@ -208,7 +198,7 @@ const tours = [
         <ul>Para finalizar el tour, iremos en trasporte hacia las <b>Salinas Grandes</b>, el salar 
             más extenso que tiene Argentina. Al regreso, haremos una breve parada en el mirador de
             la <b>Cuesta del Lipán</b> para obtener unas de las mejores fotos de tu viaje.</ul>
-            </p>,
+            </div>,
         resumen: 'Tour ideal para conocer una pintura hecha pueblo',
     },
     {
@@ -219,9 +209,8 @@ const tours = [
         precio: 2300,
         stock: 10,
         imagen: maimara,
-        descripcion: <p>
-        Descubre la gastronomía de la Quebrada de Humahuaca en <b>Maimará</b>:<br></br>
-        <br></br>
+        descripcion: <div><p>
+        Descubre la gastronomía de la Quebrada de Humahuaca en <b>Maimará</b>:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
             comenzaremos el viaje con destino a <b>Maimará</b> donde llegaremos a la Plaza 
             Central para conocer su historia y subiremos al mirador para observar la <b>Paleta 
@@ -239,7 +228,7 @@ const tours = [
         <ul>Para finalizar el tour, visitaremos Posta de Hornillos para descubir el <b>Sitio 
             Arqueológico Posta de Hornillos</b>, un yacimiento arqueológico donde se pueden 
             encontrar objetos y herramientas de la cultura precolombina.</ul>
-            </p>,
+            </div>,
         resumen: 'Un pack hecho para los cazadores del buen vino',
     },
     {
@@ -250,9 +239,8 @@ const tours = [
         precio: 2500,
         stock: 10,
         imagen: tilcara,
-        descripcion: <p>
-        Sin duda <b>Tilcara</b> es uno de tus principales destinos para conocer la Quebrada:<br></br>
-        <br></br>
+        descripcion: <div><p>
+        Sin duda <b>Tilcara</b> es uno de tus principales destinos para conocer la Quebrada:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
             comenzaremos el viaje con destino a <b>Tilcara</b>. Antes de conocer la ciudad,
             iremos al <b>Pucará</b>, un sitio arqueológico donde se encontraba una antigua 
@@ -270,7 +258,7 @@ const tours = [
         <ul>Para finalizar el tour, tendrás un tiempo libre para recorrer <b>Tilcara</b> a tu gusto.
             Sugerimos que des un paseo por las plazas centrales para conocer la iglesia, el mercado
             central, la feria de artesanías o adentrarte a alguno de los museos.</ul>
-            </p>,
+            </div>,
         resumen: 'También conocida como la joya de la Quebrada',
     },
     {
@@ -281,9 +269,8 @@ const tours = [
         precio: 2500,
         stock: 10,
         imagen: uquia,
-        descripcion: <p>
-        Para conocer <b>Uquía</b>, el pequeño pueblo con increíble riquezas naturales y culturales:<br></br>
-        <br></br>
+        descripcion: <div><p>
+        Para conocer <b>Uquía</b>, el pequeño pueblo con increíble riquezas naturales y culturales:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
             partiremos con destino a <b>Yacoraite</b>, una comunidad aborigen que nos abrirán 
             sus puertas para conocer su historia y su cultura.</ul>
@@ -300,7 +287,7 @@ const tours = [
         <ul>Para finalizar el tour, iremos ruta arriba para conocer el <b>Centro de Arte 
             Guanuco</b> donde conoceremos esta ancestral forma de alfarería. Además de visitar la
             tienda de artesanías, tendremos una rica merienda antes de emprender la vuelta.</ul>
-            </p>,
+            </div>,
         resumen: 'Un pequeño lugar con inmesas riquezas naturales',
     },
     {
@@ -311,9 +298,8 @@ const tours = [
         precio: 2800,
         stock: 10,
         imagen: humahuaca,
-        descripcion: <p>
-        Para conocer el centro neurálgico de la Quebrada, te proponemos ir a Humahuaca:<br></br>
-        <br></br>
+        descripcion: <div><p>
+        Para conocer el centro neurálgico de la Quebrada, te proponemos ir a Humahuaca:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
             partiremos directamente a la plaza central de <b>Humahuaca</b>. En este city tour
             conoceremos el pequeño cabildo, la iglesia y el Monumento a los Héroes de la 
@@ -331,7 +317,7 @@ const tours = [
         <ul>Para finalizar el tour, volveremos al pueblo donde tendremos una merienda norteña a
             orillas del Río Grande. También te daremos tiempo para que recorras el pueblo por tu 
             cuenta y puedas recorrer las tiendas de artesanías.</ul>
-            </p>,
+            </div>,
         resumen: 'El corazón de la Quebrada abierto a la diversidad',
     },
     {
@@ -342,9 +328,8 @@ const tours = [
         precio: 2500,
         stock: 10,
         imagen: trescruces,
-        descripcion: <p>
-        El pueblo de <b>Tres Cruces</b> y sus alrededores se convirtieron en un nuevo atractivo:<br></br>
-        <br></br>
+        descripcion: <div><p>
+        El pueblo de <b>Tres Cruces</b> y sus alrededores se convirtieron en un nuevo atractivo:</p>
         <ul>Nos encontraremos a las 8am en la Plaza Belgrano para comenzar el viaje. De allí,
             iremos viajaremos a unos kilometros cerca de nuestro destino para conocer el norte
             de la Quebrada. En este punto, caminaremos a través del cause del <b>Río Grande</b>, 
@@ -364,7 +349,7 @@ const tours = [
         <ul>Antes de volver, haremos un trekking más. En transporte iremos al pie de los Gigantes
             y caminaremos a través de estos majestuosos cerros para llegar al <b>Puente del 
             Diablo</b>. Un sendero natural que se encuentra en plena conservación.</ul>
-            </p>,
+            </div>,
         resumen: 'Lugares desconocidos y naturaleza inexplorada',
     },
     {
@@ -375,9 +360,8 @@ const tours = [
         precio: 2500,
         stock: 10,
         imagen: abrapampa,
-        descripcion: <p>
-        El pueblo de <b>Tres Cruces</b> y sus alrededores se convirtieron en un nuevo atractivo:<br></br>
-        <br></br>
+        descripcion: <div><p>
+        El pueblo de <b>Tres Cruces</b> y sus alrededores se convirtieron en un nuevo atractivo:</p>
         <ul>Nos encontraremos a las 8am en la Plaza Belgrano para comenzar el viaje. De allí,
             iremos viajaremos a unos kilometros cerca de nuestro destino para conocer el norte
             de la Quebrada. En este punto, caminaremos a través del cause del <b>Río Grande</b>, 
@@ -397,7 +381,7 @@ const tours = [
         <ul>Antes de volver, haremos un trekking más. En transporte iremos al pie de los Gigantes
             y caminaremos a través de estos majestuosos cerros para llegar al <b>Puente del 
             Diablo</b>. Un sendero natural que se encuentra en plena conservación.</ul>
-            </p>,
+            </div>,
         resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
@@ -474,9 +458,8 @@ const tours = [
         precio: 1300,
         stock: 10,
         imagen: lasescaleras,
-        descripcion: <p>
-        A pocos kilometros de la capital, el valle sigue creando destinos turísticos:<br></br>
-        <br></br>
+        descripcion: <div><p>
+        A pocos kilometros de la capital, el valle sigue creando destinos turísticos:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. En primer
             lugar, partiremos hasta la ciudad de <b>Palpalá</b> para conocer el pintoresco centro
             de un ciudad con mucha historia industrial y cultural.</ul>
@@ -492,7 +475,7 @@ const tours = [
         <ul>De vuelta a la capital, tomaremos otro camino que nos llevará al barrio salvadoreño de
             Alto La Viña. Allí visitaremos el <b>Hotel Alto La Viña</b>, donde tomaremos la merienda
             con una increíble vista al valle donde se encuentra San Salvador.</ul>
-            </p>,
+            </div>,
         resumen: 'Un enclave totalmente natural entre el valle y las yungas',
     },
     {
@@ -503,9 +486,8 @@ const tours = [
         precio: 1500,
         stock: 10,
         imagen: ocloyas,
-        descripcion: <p>
-        El paraje de <b>Ocloyas</b> se ubica en un corredor lleno de emprendimientos familiares:<br></br>
-        <br></br>
+        descripcion: <div><p>
+        El paraje de <b>Ocloyas</b> se ubica en un corredor lleno de emprendimientos familiares:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
             al barrio salvadoreño de Los Perales para adentrarnos en el <b>Parque Botánico 
             Municipal</b>. En esta pequeña caminata podremos conocer, a través de nuestro
@@ -522,9 +504,8 @@ const tours = [
             al <b>Angosto de Catre</b>.</ul>
         <ul>De vuelta a la ciudad, nos detendremos antes de llegar para tener una deliciosa 
             merienda en <b>Finca La Colorada</b>, un emprendimiento gastrónomico reconocido por su
-            casa de té.
-        </ul>
-            </p>,
+            casa de té.</ul>
+        </div>,
         resumen: 'Turismo familair a lo largo de las Serranías de Zapla',
     },
     {
