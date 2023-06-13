@@ -3,6 +3,7 @@
 }
 
 /*NavBar*/
+
 .navBar{
   background-color: green;
   width: 100%;
@@ -21,20 +22,27 @@
   background-color: green;
 }
 
-.nav-link{
-  color: lightgreen;
+.dropdown-menu a{
+    display: block;
+    width: 100%;
+    clear: both;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    padding: 0.5em 0em;
+    margin: 0em 1em;
+    color: green;
 }
 
-.nav-link a{
+.nav-link{
   color: lightgreen;
-  text-decoration: none;
-  padding: 1em 0em;
-  margin: 0em 1em;
 }
 
 #submenu {
   margin-top: 1em;
   margin-left: 1em;
+  color: lightgreen;
 }
 
 .navItem {
@@ -301,6 +309,25 @@
   font-size: 0.5em;
   background-color: white;
   line-height: 0.9em;
+}
+
+.finalizar{
+  width: 10em;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+  margin: 0.3em;
+  border: 0.1em black;
+  font-size: 0.6em;
+  border-radius: 0.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.finalizar:hover{
+  color:white;
+  opacity: 75%;
 }
 
 /*Footer*/
