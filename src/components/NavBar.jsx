@@ -15,7 +15,7 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-            <Link to='/excursiones'>Excursiones</Link>            
+            <Link to='/excursiones' className="nav-link">Excursiones</Link>            
             <NavDropdown title="Categorias" className="basic-nav-dropdown">
                 <NavLink to={`/subcategoria/Valle`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Valle</NavLink>
                 <NavLink to={`/subcategoria/Quebrada`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Quebrada</NavLink>
