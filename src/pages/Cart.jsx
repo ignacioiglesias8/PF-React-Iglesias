@@ -20,9 +20,9 @@ export const Cart = () => {
             { cart.map(p => <CartItem key={p.id} {...p}/>)}
             <div className='checkoutContainer'>
                 <h3 className='checkoutItem'>Total: ${total}</h3>
-                <button onClick={() => clearCart()} className="button + checkoutItem">Limpiar</button>
+                <button onClick={() => clearCart()} className="cartItemClass" id="vaciar">Vaciar carrito</button>
                 <div>
-                    <Link to='/checkout' className='Option + checkoutItem'>Checkout</Link>
+                    <Link to='/checkout' className='Option + checkoutItem' id="checkout">Checkout</Link>
                 </div>
             </div>
         </div>
