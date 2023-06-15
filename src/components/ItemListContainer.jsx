@@ -1,4 +1,4 @@
-import {useState, useEffect} from "react";
+import React, {useState, useEffect} from "react";
 import {getTours, getTourBySubCategory} from "../listadoTours";
 import ItemList from "./ItemList";
 import {useParams} from 'react-router-dom';

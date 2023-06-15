@@ -1,4 +1,4 @@
-import {useState, useEffect} from "react";
+import React, {useState, useEffect} from "react";
 import {getTourById} from "../listadoTours";
 import Description from "./Description";
 import {useParams} from 'react-router-dom'

@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartFlatbedSuitcase } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import { CartContext } from "../context/CartContext";
 
 const CartWidget = () => {
+    const { totalQuantity} = useContext (CartContext) 
+    
     return (
-    <div className="cartWidget">
+    <div className="cartWidget" style={{display: totalQuantity > 0 ? 'flex' : 'none' }}>
         <Link to='/cart'><FontAwesomeIcon className="cartWidget" icon={faCartFlatbedSuitcase} /></Link>
-        <span>0</span>
+        <div>{totalQuantity}</div>
     </div>
     );
 };

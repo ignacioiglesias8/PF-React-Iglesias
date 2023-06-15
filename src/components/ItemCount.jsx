@@ -1,5 +1,5 @@
 import Button from "./Button.jsx";
-import { useState } from "react";
+import React, { useState } from "react";
 
 const ItemCount = ({stock, initial, onAdd}) => {
     const [quantity, setQuantity] = useState (initial) 
