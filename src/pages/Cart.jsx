@@ -16,14 +16,15 @@ export const Cart = () => {
     }
 
     return (
-        <div>
+        <div className='cartItemContainer'>
             { cart.map(p => <CartItem key={p.id} {...p}/>)}
-            <h3>Total: ${total}</h3>
-            <button onClick={() => clearCart()} className="button">Limpiar</button>
-            <div>
-                <Link to='/checkout' className='Option'>Checkout</Link>
+            <div className='checkoutContainer'>
+                <h3 className='checkoutItem'>Total: ${total}</h3>
+                <button onClick={() => clearCart()} className="button + checkoutItem">Limpiar</button>
+                <div>
+                    <Link to='/checkout' className='Option + checkoutItem'>Checkout</Link>
+                </div>
             </div>
-            
         </div>
     )
 }

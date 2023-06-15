@@ -44,7 +44,7 @@ export const CartProvider = ({children}) => {
     };
 
 /*    const contextValue = useMemo(() => {
-        return { cart, addItem, removeItem, clearCart };
+        return { cart, addItem, removeItem, clearCart };/// en el value irían las {}
     }, [cart, addItem, removeItem, clearCart]);
 */
 

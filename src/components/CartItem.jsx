@@ -15,15 +15,15 @@ const CartItem = ({id, nombre, precio, quantity}) => {
 
     return (
         <div>
-        <Card key={id}>
+        <Card className="cartItem" key={id}>
         <Card.Body>
-            <Card.Title>
+            <Card.Title className='cartItemClass' id="cartItemTitle">
                 <h2>{nombre}</h2>
             </Card.Title>
-            <Card.Text id="pasajeros">Cantidad:{quantity}</Card.Text>
-            <Card.Text id="unitario">Precio unitario ${precio}:</Card.Text>
-            <Card.Text id="subtotal">Subtotal ${subtotal}:</Card.Text>
-            <button onClick= {handleRemoveItem} className="button">X</button>
+            <Card.Text className='cartItemClass' id="canrPasajeros">Pasajeros: {quantity}</Card.Text>
+            <Card.Text className='cartItemClass' id="unitario">Precio unitario: ${precio}</Card.Text>
+            <Card.Text className='cartItemClass' id="subtotal">Subtotal: ${subtotal}</Card.Text>
+            <button onClick= {handleRemoveItem} className="button + cartItemClass" id="remove">X</button>
             </Card.Body>
         </Card>
         </div>
