@@ -387,11 +387,18 @@
 }
 
 #vaciar {
+  width: 6.8em;
+  height: 2.5em;
+  margin: 1em 2.5em;
+  padding: 1px 6px;
   background-color: green;
   color: white;
+  line-height: 1em;
 }
 
 #checkout{
+  width: 6.8em;
+  height: 2.5em;
   margin: 1em 2.5em;
   padding: 1px 6px;
   border-width: 2px;
@@ -404,6 +411,7 @@
   appearance: button;
   font-size: 1.2em;
   text-decoration: none;
+  line-height: 2em;
 }
 
 /*Footer*/
