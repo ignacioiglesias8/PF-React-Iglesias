@@ -1,44 +1,15 @@
 /*imagenes*/
-import sanSalvador from "./assets/img/sansalvador.jpg";
-import elCarmen from "./assets/img/elcarmen.jpg";
-import yala from "./assets/img/yala.jpg";
-import reyes from "./assets/img/reyes.jpg";
-import tiraxi from "./assets/img/tiraxi.jpg";
-import purmamarca from "./assets/img/purmamarca.jpg";
-import maimara from "./assets/img/maimara.jpg";
-import tilcara from "./assets/img/tilcara.jpg";
-import uquia from "./assets/img/uquia.jpg";
-import humahuaca from "./assets/img/humahuaca.jpg";
-import trescruces from "./assets/img/trescruces.jpg";
-import abrapampa from "./assets/img/abrapampa.jpg";
-import casabindo from "./assets/img/casabindo.jpg";
-import cochinoca from "./assets/img/cochinoca.jpg";
 import rinconada from "./assets/img/rinconada.jpg";
 import cusicusi from "./assets/img/cusicusi.jpg";
 import abdon from "./assets/img/abdon.jpg";
 import yavi from "./assets/img/yavi.jpg";
-import lasescaleras from "./assets/img/lasescaleras.jpg";
-import ocloyas from "./assets/img/ocloyas.jpg";
-import sanpedro from "./assets/img/sanpedro.jpg";
-import calilegua from "./assets/img/calilegua.jpg";
-import sanfrancisco from "./assets/img/sanfrancisco.jpg";
-import santaana from "./assets/img/santaana.jpg";
-import sanpedroatacama from "./assets/img/sanpedroatacama.jpg";
-import tupiza from "./assets/img/tupiza.jpg";
-import bermejo from "./assets/img/bermejo.jpg";
 
 /*los resumenes deben tener entre 25 y 48 carácteres*/
 
-
 const tours = [
     {
-        id: '1',
+        id: 'aaUWamvFWL4cQKc6dJFW',
         nombre: 'San Salvador',
-        categoria: 'Jujuy',
-        subcategoria: 'Valle',
-        precio: 1000,
-        stock: 10,
-        imagen: sanSalvador,
         descripcion: <div><p>
         En este tour visitaremos los lugares turísticos más destacados de <b>San Salvador de 
             Jujuy</b>:</p>
@@ -58,16 +29,10 @@ const tours = [
         <ul>Para cerrar este tour, disfrutaremos de un menú tipicamente regional en <b>Viracocha</b>,
             un emblema gastronómico de la ciudad.</ul>
             </div>,
-        resumen: 'Capital con una cultura y naturaleza vibrante',
     },
     {
-        id: '2',
+        id: 'aedlwHC7Il2onYg81rNH',
         nombre: 'El Carmen',
-        categoria: 'Jujuy',
-        subcategoria: 'Valle',
-        precio: 1300,
-        stock: 10,
-        imagen: elCarmen,
         descripcion: <div><p>
         Viajeramos al sur de la provincia para conocer los paisajes que rodean <b>El Carmen</b>:</p>
         <ul>Nos encontraremos a las 9am en la Plaza Belgrano para comenzar el viaje. Nuestra 
@@ -85,16 +50,10 @@ const tours = [
             día en el buñuelódromo. Nadie puede volverse de este tour sin probar los bueñuelos con miel
             de caña, un clásico de la provincia.</ul>
             </div>,
-        resumen: 'Ríos cristalinos y cerros verdes en el corazón del valle',
     },
     {
-        id: '3',
+        id: 'ayMZe1fQ4JxzIlrqJtQO',
         nombre: 'Yala',
-        categoria: 'Jujuy',
-        subcategoria: 'Valle',
-        precio: 1500,
-        stock: 10,
-        imagen: yala,
         descripcion: <div><p>
         A poco kilomentros de la capital, el tour al <b>Parque Provincial Potrero de Yala</b> consiste 
         en lo siguiente:</p>
@@ -113,16 +72,10 @@ const tours = [
         <ul>Para finalizar, retomaremos la vuelta hacia San Salvador pero antes, pasaremos por <b>Los 
             Nogales</b> para merienda típica jujeña: Api con buñuelos.</ul>
             </div>,
-        resumen: 'Las Lagunas de Yala, recorrido obligatorio si visitas Jujuy',
     },
     {
-        id: '4',
+        id: 'ar5bEc8qZmbA6xwy8jPS',
         nombre: 'Reyes',
-        categoria: 'Jujuy',
-        subcategoria: 'Valle',
-        precio: 1700,
-        stock: 10,
-        imagen: reyes,
         descripcion: <div><p>
         Las <b>Termas de Reyes</b> se han convertido en un destino turístico popular de Jujuy en el cual:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. La 
@@ -141,16 +94,10 @@ const tours = [
             Relajarnos en las aguas termales de Reyes. Para ello tendremos tiempo hasta el retorno en
             el <b>Complejo Qubrada Termal</b>, el cual cuenta con servicio de barra y cafatería (no incluido).</ul>
             </div>,
-        resumen: 'Relax con aguas termales curativas y entorno natural',
     },
     {
-        id: '5',
+        id: 'azkh0YniN7YEunc25va4',
         nombre: 'Tiraxi',
-        categoria: 'Jujuy',
-        subcategoria: 'Valle',
-        precio: 1500,
-        stock: 10,
-        imagen: tiraxi,
         descripcion: <div><p>
         <b>Tiraxi</b> es una pequeña región del valle jujeño que concentra diversas actividades:</p>
         <ul>Nos encontraremos a las 9am en la Plaza Belgrano para comenzar el viaje. La 
@@ -170,16 +117,10 @@ const tours = [
             joyas gastronómicas de la provincia de Jujuy: <b>Flor del Pago</b>. Este restaurant 
             italo-colonial, nos abrira las puertas para deleitarnos de una merienda gourmet.</ul>
             </div>,
-        resumen: 'Conexión con la naturaleza en el norte del valle',
     },
     {
-        id: '6',
+        id: 'bcpn8o1Rz33QqbqybC3p',
         nombre: 'Purmamarca',
-        categoria: 'Jujuy',
-        subcategoria: 'Quebrada',
-        precio: 2300,
-        stock: 10,
-        imagen: purmamarca,
         descripcion: <div><p>
         <b>Purmamarca</b> y sus alrededores nos muestran una infinidad de actividades:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
@@ -199,16 +140,10 @@ const tours = [
             más extenso que tiene Argentina. Al regreso, haremos una breve parada en el mirador de
             la <b>Cuesta del Lipán</b> para obtener unas de las mejores fotos de tu viaje.</ul>
             </div>,
-        resumen: 'Tour ideal para conocer una pintura hecha pueblo',
     },
     {
-        id: '7',
+        id: 'bmJ7EfevMbGiRKFaXyg9',
         nombre: 'Maimará',
-        categoria: 'Jujuy',
-        subcategoria: 'Quebrada',
-        precio: 2300,
-        stock: 10,
-        imagen: maimara,
         descripcion: <div><p>
         Descubre la gastronomía de la Quebrada de Humahuaca en <b>Maimará</b>:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
@@ -229,16 +164,10 @@ const tours = [
             Arqueológico Posta de Hornillos</b>, un yacimiento arqueológico donde se pueden 
             encontrar objetos y herramientas de la cultura precolombina.</ul>
             </div>,
-        resumen: 'Un pack hecho para los cazadores del buen vino',
     },
     {
-        id: '8',
+        id: 'btBunnHJtuWoQkYmZAM3',
         nombre: 'Tilcara',
-        categoria: 'Jujuy',
-        subcategoria: 'Quebrada',
-        precio: 2500,
-        stock: 10,
-        imagen: tilcara,
         descripcion: <div><p>
         Sin duda <b>Tilcara</b> es uno de tus principales destinos para conocer la Quebrada:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
@@ -259,16 +188,10 @@ const tours = [
             Sugerimos que des un paseo por las plazas centrales para conocer la iglesia, el mercado
             central, la feria de artesanías o adentrarte a alguno de los museos.</ul>
             </div>,
-        resumen: 'También conocida como la joya de la Quebrada',
     },
     {
-        id: '9',
+        id: 'buovK6077p7bPlxtw5f6',
         nombre: 'Uquía',
-        categoria: 'Jujuy',
-        subcategoria: 'Quebrada',
-        precio: 2500,
-        stock: 10,
-        imagen: uquia,
         descripcion: <div><p>
         Para conocer <b>Uquía</b>, el pequeño pueblo con increíble riquezas naturales y culturales:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
@@ -288,16 +211,10 @@ const tours = [
             Guanuco</b> donde conoceremos esta ancestral forma de alfarería. Además de visitar la
             tienda de artesanías, tendremos una rica merienda antes de emprender la vuelta.</ul>
             </div>,
-        resumen: 'Un pequeño lugar con inmesas riquezas naturales',
     },
     {
-        id: '10',
+        id: 'bwW7lCoiboiGiGlzkfbS',
         nombre: 'Humahuaca',
-        categoria: 'Jujuy',
-        subcategoria: 'Quebrada',
-        precio: 2800,
-        stock: 10,
-        imagen: humahuaca,
         descripcion: <div><p>
         Para conocer el centro neurálgico de la Quebrada, te proponemos ir a Humahuaca:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
@@ -318,16 +235,10 @@ const tours = [
             orillas del Río Grande. También te daremos tiempo para que recorras el pueblo por tu 
             cuenta y puedas recorrer las tiendas de artesanías.</ul>
             </div>,
-        resumen: 'El corazón de la Quebrada abierto a la diversidad',
     },
     {
-        id: '11',
+        id: 'bxSXrBZkJrIiUhActt8j',
         nombre: 'Tres Cruces',
-        categoria: 'Jujuy',
-        subcategoria: 'Quebrada',
-        precio: 2500,
-        stock: 10,
-        imagen: trescruces,
         descripcion: <div><p>
         El pueblo de <b>Tres Cruces</b> y sus alrededores se convirtieron en un nuevo atractivo:</p>
         <ul>Nos encontraremos a las 8am en la Plaza Belgrano para comenzar el viaje. De allí,
@@ -350,18 +261,12 @@ const tours = [
             y caminaremos a través de estos majestuosos cerros para llegar al <b>Puente del 
             Diablo</b>. Un sendero natural que se encuentra en plena conservación.</ul>
             </div>,
-        resumen: 'Lugares desconocidos y naturaleza inexplorada',
     },
     {
-        id: '12',
+        id: 'pa8Vz9Cak2xSbPU1xpML',
         nombre: 'Abra Pampa',
-        categoria: 'Jujuy',
-        subcategoria: 'Puna',
-        precio: 2500,
-        stock: 10,
-        imagen: abrapampa,
         descripcion: <div><p>
-        El pueblo de <b>Tres Cruces</b> y sus alrededores se convirtieron en un nuevo atractivo:</p>
+        Hay dos formas de entrar a la Puna jujeña, <b>Abra Pampa</b> es la más clásica:</p>
         <ul>Nos encontraremos a las 8am en la Plaza Belgrano para comenzar el viaje. De allí,
             iremos viajaremos a unos kilometros cerca de nuestro destino para conocer el norte
             de la Quebrada. En este punto, caminaremos a través del cause del <b>Río Grande</b>, 
@@ -382,29 +287,6 @@ const tours = [
             y caminaremos a través de estos majestuosos cerros para llegar al <b>Puente del 
             Diablo</b>. Un sendero natural que se encuentra en plena conservación.</ul>
             </div>,
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    },
-    {
-        id: '13',
-        nombre: 'Casabindo',
-        categoria: 'Jujuy',
-        subcategoria: 'Puna',
-        precio: 2800,
-        stock: 10,
-        imagen: casabindo,
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    },
-    {
-        id: '14',
-        nombre: 'Cochinoca',
-        categoria: 'Jujuy',
-        subcategoria: 'Puna',
-        precio: 2800,
-        stock: 10,
-        imagen: cochinoca,
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
         id: '15',
@@ -451,13 +333,8 @@ const tours = [
         resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
-        id: '19',
+        id: 'azmro2C6XV99EmoUzmVg',
         nombre: 'Las Escaleras',
-        categoria: 'Jujuy',
-        subcategoria: 'Valle',
-        precio: 1300,
-        stock: 10,
-        imagen: lasescaleras,
         descripcion: <div><p>
         A pocos kilometros de la capital, el valle sigue creando destinos turísticos:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. En primer
@@ -476,16 +353,11 @@ const tours = [
             Alto La Viña. Allí visitaremos el <b>Hotel Alto La Viña</b>, donde tomaremos la merienda
             con una increíble vista al valle donde se encuentra San Salvador.</ul>
             </div>,
-        resumen: 'Un enclave totalmente natural entre el valle y las yungas',
+
     },
     {
-        id: '20',
+        id: 'azlztnA2QHCzj3NlOT0',
         nombre: 'Ocloyas',
-        categoria: 'Jujuy',
-        subcategoria: 'Valle',
-        precio: 1500,
-        stock: 10,
-        imagen: ocloyas,
         descripcion: <div><p>
         El paraje de <b>Ocloyas</b> se ubica en un corredor lleno de emprendimientos familiares:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
@@ -506,94 +378,134 @@ const tours = [
             merienda en <b>Finca La Colorada</b>, un emprendimiento gastrónomico reconocido por su
             casa de té.</ul>
         </div>,
-        resumen: 'Turismo familair a lo largo de las Serranías de Zapla',
     },
     {
-        id: '21',
-        nombre: 'San Pedro',
-        categoria: 'Jujuy',
-        subcategoria: 'Yungas',
-        precio: 1500,
-        stock: 10,
-        imagen: sanpedro,
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        id: 'yaBAAe6l0QZfIwDPLKzt',
+        nombre: 'San Rafael',
+        descripcion: <div><p>
+        <b>San Rafael</b> es un lugar poco explorado, pero sin duda te dejará sorprendido:</p>
+        <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
+            viajeremos directamente a <b>San Pedro</b>. Haremos una parada en su centro histórico
+            para conocer su historia, la Plaza Central y la iglesia de San Pedro. Luego, subiremos
+            al mirador para observar la entrada a las yungas jujeñas.</ul>
+        <ul>A continuación tomaremos la ruta provincial nº 6 con destino a <b>El Fuerte</b>. Antes
+            de llegar a este pequeño pueblo, conoceremos las cáscadas de El Fuerte, un paisaje poco
+            explorado ya que solo podremos acceder en 4x4.</ul>
+        <ul>Más adelante, llegaremos <b>San Rafael</b>, un curioso pueblo que se caracteriza por
+            tener cuatro reservas naturales. En primer lugar, visitaremos la <b>Reserva Villa 
+            Monte</b>, donde haremos un paseo a caballo por este emprendimiento familiar hasta
+            el lugar donde tendremos nuestro almuerzo: un increíble asado de campo.</ul>
+        <ul>Al finalizar nuestra comida, iremos a otra de las reservas, el <b>Eco Portal de 
+            Piedra</b>. En este lugar, haremos un trekking por un bosque antiguo donde la 
+            vegetación y la humedad nos harán pensar que estamos en plena oscuridad.</ul>
+        <ul>De vuelta a la ciudad, visitaremos la <b>Reserva Manantial de Vida</b>, una 
+            iniciativa privada que promueve la agroecología y el naturismo. Ideal para tomar 
+            nuestra merienda.</ul>
+        </div>,
     },
     {
-        id: '22',
-        nombre: 'Calilegua',
-        categoria: 'Jujuy',
-        subcategoria: 'Yungas',
-        precio: 2000,
-        stock: 10,
-        imagen: calilegua,
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    },
-    {
-        id: '23',
+        id: 'ycpwBfNdAwGmfzZGcYL1',
         nombre: 'San Francisco',
-        categoria: 'Jujuy',
-        subcategoria: 'Yungas',
-        precio: 3000,
-        stock: 10,
-        imagen: sanfrancisco,
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        descripcion: <div><p>
+        <b>San Francisco</b> es sin duda el corazón del Parque Nacional Calilegua:</p>
+        <ul>Nos encontraremos a las 8:00am en la Plaza Belgrano para comenzar el viaje. De allí,
+            viajeremos directamente a <b>Calilegua</b> para visitar el <b>Centro de Información
+            Calilegua</b> donde podremos conocer la historia del Parque, su naturaleza y las
+            medidas de preocupación que debemos tener.</ul>
+        <ul>A continuación nos adentraremos en la ruta para llegar a <b>San Francisco</b> donde 
+            haremos el check in en nuestro hotel. Tendrás un tiempo libre hasta la hora del almuerzo.</ul>
+        <ul>Por la tarde, realizaremos dos tours por el parque. El primero consitirá en el <b>Mirador
+            del Ceibo</b>, donde observaremos el punto más alto de la zona. El segundo será hacia
+            la <b>Cueva del Toro</b>. Al volver al hotel, tomaremos la merienda. El resto del día
+            y la cena quedarán a tu gusto.</ul>
+        <ul>Al día siguiente, luego de desayunar, iremos hacia a conocer fuentes vitales de agua.
+            Primero, iremos a la reconocida <b>Fuente del Jaguar</b>, donde tendremos tiempo para
+            tomarnos unas fotos. Luego, nos detendremos en las <b>Termas del Jordán</b> a relajarnos
+            en sus aguas cálidas.</ul>
+        <ul>Una vez finalizado este momento, retomaremos el camino de vuelta. Saliendo del parque,
+            nos detendremos a almorzar en <b>Grl. Libertador San Martín</b>.</ul>
+        </div>,
     },
     {
-        id: '24',
+        id: 'yst6ASwktihMkJ7pbUFG',
         nombre: 'Santa Ana',
-        categoria: 'Jujuy',
-        subcategoria: 'Yungas',
-        precio: 3500,
-        stock: 10,
-        imagen: santaana,
         descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+//        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
-        id: '25',
-        nombre: 'San Pedro de Atacama',
-        categoria: 'Exterior',
-        subcategoria: 'Chile',
-        precio: 5000,
-        stock: 10,
-        imagen: sanpedroatacama,
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    },
-    {
-        id: '26',
-        nombre: 'Tupiza',
-        categoria: 'Exterior',
-        subcategoria: 'Bolivia',
-        precio: 5000,
-        stock: 10,
-        imagen: tupiza,
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    },
-    {
-        id: '27',
+        id: 'zbb8SrM0tFvSzYeFXqH7',
         nombre: 'Bermejo',
-        categoria: 'Exterior',
-        subcategoria: 'Bolivia',
-        precio: 5000,
-        stock: 10,
-        imagen: bermejo,
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        descripcion:<div><p>
+        Al otro lado de la frontera, en el departamento de Tarija, se encuentra la bella <b>Bermejo</b>:</p>
+        <ul>Nos encontraremos a las 8:00am en la Plaza Belgrano para comenzar el viaje. De allí,
+            partiremos directamente a la frontera. Al llegar al paso de <b>Aguas Blancas</b> nos 
+            detendremos para almorzar y hacer los trámites migratorios para cruzar hacia Bolivia.</ul>
+        <ul>Una vez que hayamos cruzado, llegaremos a la ciudad fronteriza de <b>Bermejo</b>. Lo 
+            primero que haremos será el check in en nuestro hotel.</ul>
+        <ul>Por la tarde, realizaremos una excursión que combinará el trekking y mountain bike por
+            el sitio conocido como <b>Poza El Chorro</b>. Al finalizar, volveremos a la ciudad para
+            tener nuestra merienda. Lo que resta del día será libre para recorrer por tu cuenta.</ul>
+        <ul>Al día siguiente, luego de desayunar, partiremos con rumbo a la <b>Reserva Nacional 
+            Tariquia</b>. Allí realizaremos la excursión tipo safari en donde podrás apreciar la flora
+            y fauna de la yunga Bolivia. También tendremos tiempo para adentrarnos en sus ríos y cascádas.</ul>
+        <ul>Una vez finalizado retomaremos el camino de vuelta. Primero nos detendremos a almorzar
+            a la vera del <b>Río Bermejo</b> para luego cruzar nuevamente a nuestro país.</ul>
+        </div>,
+    },
+    {
+        id: 'zbtxQGHR8LmORxVi24RE',
+        nombre: 'Tupiza',
+        descripcion: <div><p>
+        La Puna boliviana tiene un sinnúmeros de lugares para visitar, el primero es <b>Tupiza</b>:</p>
+        <ul>Nos encontraremos a las 6:00am en la Plaza Belgrano para comenzar el viaje. Lo primero que 
+            haremos será tener un buen desayuno en el camino. De allí, partiremos directamente <b>La 
+            Quiaca</b>. Al llegar, nos tomaremos un tiempo para recorrer este mítico pueblo fronterizo.</ul>
+        <ul>Luego, iremos al cruzo de frontera para realizar nuestros trámites migratorios. Una vez hecho
+            este paso, llegaremos a la ciudad de <b>Villazón</b> donde almorzaremos y tomaremos el buñuelos
+            hacia nuestro destino.</ul>
+        <ul>Llegaremos por la tarde a <b>Tupiza</b>. Lo primero que haremos será realizar el check-in
+            en nuestro hotel así podemos ir livianos a al <b>Cerro Elefante</b>. Acá podremos observar
+            el incríble paisaje del valle. Lo que resta del día será a tu gusto para que disfrutes.</ul>
+        <ul>Al día siguiente, luego de desayunar, partiremos con rumbo al <b>Valle Colordo</b>. En este
+            paseo, podremos observar formaciones geológicas como la Puerta del Diable, el Cañón del Duende
+            y el Puente del Diablo.</ul>
+        <ul>Al finalizar, retomaremos el camino de vuelta a casa. Antes de cruzar la frontera, nos 
+            detendremos a almorzar en la <b>Comunidad Tocloca</b> quienes nos esperarán con un auténtico
+            menú puneño.</ul>
+        </div>,
+    },
+    {
+        id: 'zcaGufkUFv4bFcGxKZc6',
+        nombre: 'San Pedro de Atacama',
+        descripcion: <div><p>
+        Acompañanos a descubir <b>San Pedro de Atacama</b> en un viaje mágico cruzando la Cordillera</p>
+        <ul>Nos encontraremos a las 6:00am en la Plaza Belgrano para comenzar el viaje. Lo primero que 
+            haremos será tener un buen desayuno en el camino. De allí, partiremos directamente a <b>Susques</b>,
+            la principal ciudad de la Puna jujeño. Acá tomaremos un descanso y aprovecharemos a ver el 
+            incríble paisaje.</ul>
+        <ul>Luego, iremos al pequeño pueblo de <b>Jama</b> donde aprovecharemos a tener el almuerzo
+            con mayor altitud que se pueda ofrecer en Jujuy. Al finalizar, realizaremos los trámites
+            migratorios para adentrarnos a Chile.</ul>
+        <ul>Una vez que estemos del otro lado de la frontera, pasaremos por lugares increíbles del Desierto
+            de Atacama. Primero, iremos a la <b>Reserva Natural de los Flamencos</b> y luego nos 
+            adentraremos brevemente en Bolivia para conocer la <b>Laguna Blanca</b>.</ul>
+        <ul>Para terminar el día, llegaremos a <b>San Pedro de Atacama</b> donde nuestro hotel nos
+            esperará con nuestras habitaciones listas y una suculenta merienda. El resto del día 
+            quedará a elección tuya.</ul>
+        <ul>Al otro día, luego de desayunar, haremos un city tour por la <b>Plaza Principal</b>,
+            el <b>Museo del Meteorito</b>, el <b>Pukará de Quitor</b> y <b>el Mirador Likan-Antay</b>.
+            Al finalizar, retomaremos viaje de vuelta con una parada en el camino para almorzar.</ul>
+        </div>,
     },
 ]
 
-export const getTours = () => {
+/*export const getTours = () => {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve(tours)
         }, 1000)
     })
-}
+}*/
 
 export const getTourById = (tourId) => {
     return new Promise((resolve) => {

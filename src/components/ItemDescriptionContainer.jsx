@@ -3,6 +3,7 @@ import Description from "./Description";
 import {useParams} from 'react-router-dom';
 import {doc, getDoc, getFirestore} from "firebase/firestore";
 import Loader from "./Loader";
+import {getTourById} from "../listadoTours";
 
 const ItemDescriptionContainer = () => {
     const[pack, setPack] = useState(null)
@@ -17,7 +18,13 @@ const ItemDescriptionContainer = () => {
             .then(response=>{
                 const data =response.data()
                 const productsAdapted = {id:response.id, ...data}
-                setPack(productsAdapted)
+                getTourById(itemId)
+                    .then (tour =>{
+                        if (tour) {
+                            productsAdapted.descripcion = tour.descripcion;
+                        }
+                        setPack(productsAdapted)
+                    })
             })
             .catch(error =>{
                 console.log(error)
@@ -25,7 +32,7 @@ const ItemDescriptionContainer = () => {
             .then(()=>{
                 setLoading(false)
             })
-    },)
+}, [itemId]);
 
     return (
         <div className="itemDescriptionContainer">
