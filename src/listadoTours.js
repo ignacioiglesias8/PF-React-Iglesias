@@ -1,9 +1,3 @@
-/*imagenes*/
-import rinconada from "./assets/img/rinconada.jpg";
-import cusicusi from "./assets/img/cusicusi.jpg";
-import abdon from "./assets/img/abdon.jpg";
-import yavi from "./assets/img/yavi.jpg";
-
 /*los resumenes deben tener entre 25 y 48 carácteres*/
 
 const tours = [
@@ -289,46 +283,26 @@ const tours = [
             </div>,
     },
     {
-        id: '15',
+        id: 'prDVZ6cSMzxICn0XLM5Y',
         nombre: 'Rinconada',
-        categoria: 'Jujuy',
-        subcategoria: 'Puna',
-        precio: 3000,
-        stock: 10,
-        imagen: rinconada,
         descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
-        id: '16',
+        id: 'pced57I1AyujpxlVMZme',
         nombre: 'Abdon Castro Tolay',
-        categoria: 'Jujuy',
-        subcategoria: 'Puna',
-        precio: 3000,
-        stock: 10,
-        imagen: abdon,
         descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
-        id: '17',
+        id: 'pxmg339UhgHVY9dW9TdV',
         nombre: 'Cusi Cusi',
-        categoria: 'Jujuy',
-        subcategoria: 'Puna',
-        precio: 3500,
-        stock: 10,
-        imagen: cusicusi,
         descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
-        id: '18',
+        id: 'pydUU15YaAob6oIvcrj9',
         nombre: 'Yavi',
-        categoria: 'Jujuy',
-        subcategoria: 'Puna',
-        precio: 3500,
-        stock: 10,
-        imagen: yavi,
         descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },

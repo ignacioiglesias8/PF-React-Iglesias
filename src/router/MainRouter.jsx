@@ -6,6 +6,7 @@ import ItemListContainer from "../components/ItemListContainer";
 import ItemDescriptionContainer from '../components/ItemDescriptionContainer';
 import Home from "../pages/Home";
 import Cart from "../pages/Cart";
+import Checkout from "../pages/Checkout";
 import Excursiones from '../pages/Excursiones';
 import { getTourBySubCategory } from "../listadoTours";
 
@@ -21,6 +22,7 @@ const MainRouter = () => {
           <Route path='/item/:itemId' element= {<ItemDescriptionContainer/>}/> 
           <Route path='/subcategoria/:subCategoryId' element={<ItemListContainer title={subCategoryId} getTours={getTourBySubCategory} />}/> 
           <Route exact path="/cart" element= {<Cart/>}/>
+          <Route exact path="/checkout" element= {<Checkout/>}/>
           <Route path='*' element= {<h1>Error</h1>}/> 
         </Routes>
         <Footer />  

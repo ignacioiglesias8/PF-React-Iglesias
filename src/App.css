@@ -126,7 +126,7 @@
   margin: 0.45em 0.1em;
 }
 
-.Puna16 .card-body .card-title h2{
+.Punapced57I1AyujpxlVMZme .card-body .card-title h2{
   font-size: 1.2em ;
   margin: 0.45em 0.1em;
 }
@@ -424,6 +424,51 @@
 
 #backButton{
   margin-top: 5em;
+}
+
+/*Checkout*/
+.checkoutFormPage{
+  width: 100%;
+  min-height: 29.1em;
+  margin-top: 1em;
+}
+
+.formContainer{
+  width: 90%;
+  margin: 1em 5em;
+  min-height: 7.7em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form{
+  width: 30%;
+  margin: 2em 3em;
+  background-color: lightgreen;
+  border: 0.1em solid black;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.form .label{
+  width: 30%;
+  height: 2em;
+  margin-top: 2em;
+}
+
+.form .input{
+  width: 60%;
+  height: 2em;
+  margin: 0em 1em;
+}
+
+.formFooter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em 0em;
 }
 
 /*Footer*/
