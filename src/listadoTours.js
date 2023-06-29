@@ -286,25 +286,21 @@ const tours = [
         id: 'prDVZ6cSMzxICn0XLM5Y',
         nombre: 'Rinconada',
         descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
         id: 'pced57I1AyujpxlVMZme',
         nombre: 'Abdon Castro Tolay',
         descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
         id: 'pxmg339UhgHVY9dW9TdV',
         nombre: 'Cusi Cusi',
         descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
         id: 'pydUU15YaAob6oIvcrj9',
         nombre: 'Yavi',
         descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
         id: 'azmro2C6XV99EmoUzmVg',
