@@ -1,11 +1,9 @@
-/*los resumenes deben tener entre 25 y 48 carácteres*/
-
 const tours = [
     {
         id: 'aaUWamvFWL4cQKc6dJFW',
         nombre: 'San Salvador',
-        descripcion: <div><p>
-        En este tour visitaremos los lugares turísticos más destacados de <b>San Salvador de 
+        descripcion: <div>
+            <p>En este tour visitaremos los lugares turísticos más destacados de <b>San Salvador de 
             Jujuy</b>:</p>
         <ul>Nos encontraremos a las 8am en la <b>Plaza Belgrano</b>, corazón de la ciudad, para 
             conocer importantes edificios históricos como la casa de Gobierno, el Cabildo 
@@ -27,8 +25,8 @@ const tours = [
     {
         id: 'aedlwHC7Il2onYg81rNH',
         nombre: 'El Carmen',
-        descripcion: <div><p>
-        Viajeramos al sur de la provincia para conocer los paisajes que rodean <b>El Carmen</b>:</p>
+        descripcion: <div>
+            <p>Viajeramos al sur de la provincia para conocer los paisajes que rodean <b>El Carmen</b>:</p>
         <ul>Nos encontraremos a las 9am en la Plaza Belgrano para comenzar el viaje. Nuestra 
             primer parada será el <b>Dique Las Maderas</b> donde realizaremos un trekking hasta
             llegar al pequeño puerto. Allí saldremos el bote a recorrer rincones increíbles del dique.</ul>
@@ -48,8 +46,8 @@ const tours = [
     {
         id: 'ayMZe1fQ4JxzIlrqJtQO',
         nombre: 'Yala',
-        descripcion: <div><p>
-        A poco kilomentros de la capital, el tour al <b>Parque Provincial Potrero de Yala</b> consiste 
+        descripcion: <div>
+            <p>A poco kilomentros de la capital, el tour al <b>Parque Provincial Potrero de Yala</b> consiste 
         en lo siguiente:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. La 
             primera parada será en la <b>Plaza Central de Yala</b> donde nos acercaremos al 
@@ -70,8 +68,8 @@ const tours = [
     {
         id: 'ar5bEc8qZmbA6xwy8jPS',
         nombre: 'Reyes',
-        descripcion: <div><p>
-        Las <b>Termas de Reyes</b> se han convertido en un destino turístico popular de Jujuy en el cual:</p>
+        descripcion: <div>
+            <p>Las <b>Termas de Reyes</b> se han convertido en un destino turístico popular de Jujuy en el cual:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. La 
             primera parada será en <b>Villa Jardín de Reyes</b> donde nos caminaremos el centro
             del pueblo para conocer su historia.</ul>
@@ -92,8 +90,8 @@ const tours = [
     {
         id: 'azkh0YniN7YEunc25va4',
         nombre: 'Tiraxi',
-        descripcion: <div><p>
-        <b>Tiraxi</b> es una pequeña región del valle jujeño que concentra diversas actividades:</p>
+        descripcion: <div>
+            <p><b>Tiraxi</b> es una pequeña región del valle jujeño que concentra diversas actividades:</p>
         <ul>Nos encontraremos a las 9am en la Plaza Belgrano para comenzar el viaje. La 
             primera parada será en la entrada  de <b>León</b>, el último pueblo del valle antes
             de entrar a la Quebrada de Humahuaca, para observar el <b>Mirador al Río Grande</b>.</ul>
@@ -115,8 +113,8 @@ const tours = [
     {
         id: 'bcpn8o1Rz33QqbqybC3p',
         nombre: 'Purmamarca',
-        descripcion: <div><p>
-        <b>Purmamarca</b> y sus alrededores nos muestran una infinidad de actividades:</p>
+        descripcion: <div>
+            <p><b>Purmamarca</b> y sus alrededores nos muestran una infinidad de actividades:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
             iremos directamente a <b>Purmamarca</b> donde llegaremos a la Plaza Central para 
             conocer su historia y visitar puntos claves como el Cabildo (el más pequeño de 
@@ -138,8 +136,8 @@ const tours = [
     {
         id: 'bmJ7EfevMbGiRKFaXyg9',
         nombre: 'Maimará',
-        descripcion: <div><p>
-        Descubre la gastronomía de la Quebrada de Humahuaca en <b>Maimará</b>:</p>
+        descripcion: <div>
+            <p>Descubre la gastronomía de la Quebrada de Humahuaca en <b>Maimará</b>:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
             comenzaremos el viaje con destino a <b>Maimará</b> donde llegaremos a la Plaza 
             Central para conocer su historia y subiremos al mirador para observar la <b>Paleta 
@@ -162,8 +160,8 @@ const tours = [
     {
         id: 'btBunnHJtuWoQkYmZAM3',
         nombre: 'Tilcara',
-        descripcion: <div><p>
-        Sin duda <b>Tilcara</b> es uno de tus principales destinos para conocer la Quebrada:</p>
+        descripcion: <div>
+            <p>Sin duda <b>Tilcara</b> es uno de tus principales destinos para conocer la Quebrada:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
             comenzaremos el viaje con destino a <b>Tilcara</b>. Antes de conocer la ciudad,
             iremos al <b>Pucará</b>, un sitio arqueológico donde se encontraba una antigua 
@@ -186,8 +184,8 @@ const tours = [
     {
         id: 'buovK6077p7bPlxtw5f6',
         nombre: 'Uquía',
-        descripcion: <div><p>
-        Para conocer <b>Uquía</b>, el pequeño pueblo con increíble riquezas naturales y culturales:</p>
+        descripcion: <div>
+            <p>Para conocer <b>Uquía</b>, el pequeño pueblo con increíble riquezas naturales y culturales:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
             partiremos con destino a <b>Yacoraite</b>, una comunidad aborigen que nos abrirán 
             sus puertas para conocer su historia y su cultura.</ul>
@@ -209,8 +207,8 @@ const tours = [
     {
         id: 'bwW7lCoiboiGiGlzkfbS',
         nombre: 'Humahuaca',
-        descripcion: <div><p>
-        Para conocer el centro neurálgico de la Quebrada, te proponemos ir a Humahuaca:</p>
+        descripcion: <div>
+            <p>Para conocer el centro neurálgico de la Quebrada, te proponemos ir a Humahuaca:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
             partiremos directamente a la plaza central de <b>Humahuaca</b>. En este city tour
             conoceremos el pequeño cabildo, la iglesia y el Monumento a los Héroes de la 
@@ -233,8 +231,8 @@ const tours = [
     {
         id: 'bxSXrBZkJrIiUhActt8j',
         nombre: 'Tres Cruces',
-        descripcion: <div><p>
-        El pueblo de <b>Tres Cruces</b> y sus alrededores se convirtieron en un nuevo atractivo:</p>
+        descripcion: <div>
+            <p>El pueblo de <b>Tres Cruces</b> y sus alrededores se convirtieron en un nuevo atractivo:</p>
         <ul>Nos encontraremos a las 8am en la Plaza Belgrano para comenzar el viaje. De allí,
             iremos viajaremos a unos kilometros cerca de nuestro destino para conocer el norte
             de la Quebrada. En este punto, caminaremos a través del cause del <b>Río Grande</b>, 
@@ -259,54 +257,100 @@ const tours = [
     {
         id: 'pa8Vz9Cak2xSbPU1xpML',
         nombre: 'Abra Pampa',
-        descripcion: <div><p>
-        Hay dos formas de entrar a la Puna jujeña, <b>Abra Pampa</b> es la más clásica:</p>
+        descripcion: <div>
+            <p>Hay dos formas de entrar a la Puna jujeña, <b>Abra Pampa</b> es la más clásica:</p>
         <ul>Nos encontraremos a las 8am en la Plaza Belgrano para comenzar el viaje. De allí,
-            iremos viajaremos a unos kilometros cerca de nuestro destino para conocer el norte
-            de la Quebrada. En este punto, caminaremos a través del cause del <b>Río Grande</b>, 
-            hasta su nacimiento, para contemplar su belleza.</ul>
-        <ul>Llegaremos al antiguo puente del ferrocarril donde nos esperarán nuestros guías para
-            realizar una excursión a cabello a través de la <b>Quebrada Chulín</b>. En este 
-            recorrido podremos observar la flora y la fauna silvestre, así como respirar el abierto
-            puro de las montañas.</ul>
-        <ul>Al final del camino, haremos un breve camino hasta <b>Inca Cueva</b>, una cueva donde
-            los antiguos pobladores, los Humahuaca, dejaron su arte grabado en las paredes. Además
-            de conocer este hallazgo antropológico, tendrás tiempo para recorrer los cerros, el oasis
-            y el Cerro de la Ventana para obtener fotos increíbles.</ul>
-        <ul>A continuación, retomaremos camino hacia <b>Tres Cruces</b> donde nos estarán esperando
-            con un tradicional asado de campo al pie de los <b>Gigantes Dormidos</b>, una formación
-            geológico que puede observarse a simple vista desde la ruta. Solo que lo podremos hacer 
-            bien de cerca.</ul>
-        <ul>Antes de volver, haremos un trekking más. En transporte iremos al pie de los Gigantes
-            y caminaremos a través de estos majestuosos cerros para llegar al <b>Puente del 
-            Diablo</b>. Un sendero natural que se encuentra en plena conservación.</ul>
+            viajeremos con rumbro al norte, atravesando toda la Quebrada de Humahuaca, hasta la Puna.
+            Llegaremos a <b>Abra Pampa</b> para dar un breve paseo por su Plaza Central.</ul>
+        <ul>Luego, haremos será un trekking por el <b>Humedal del Río Miraflores</b>. En este 
+            paseo tendremos la oportunidad de observar la flora y la fauna rural de la Puna
+            en absoluta conservación.</ul>
+        <ul>Al final del camino, nuestro transporte nos esperará para llevarnos al vecino poblado
+            de <b>Cochinoca</b>. En breve tour podremos conocer la historia de este pueblo milenario. 
+            También haremos nuestra parada para almorzar un clásico guiso puneño con empanadas.</ul>
+        <ul>Retomaremos el viaje a un punto que seguramente verás cuando lleguemos: Las <b>Dunas 
+            de Huancar</b>. Esta formación de arena en medio de la nada nos permitirá contemplar 
+            la belleza de la único en un retrato único. Además, de tener tiempo libre para investigar
+            por tu cuenta, podrás contratar la excursión de sandboard en el lugar.</ul>
+        <ul>Al finalizar, volveremos a <b>Abra Pampa</b> para tener una clásica merienda jujeña
+            y visitar el mercado de artesanías popular.</ul>
             </div>,
-    },
-    {
-        id: 'prDVZ6cSMzxICn0XLM5Y',
-        nombre: 'Rinconada',
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
         id: 'pced57I1AyujpxlVMZme',
         nombre: 'Abdon Castro Tolay',
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        descripcion: <div>
+            <p>Jujuy muestra paisajes nuevos todo el tiempo, <b>Abdon Castro Tolay</b> es un ejemplo:</p>
+        <ul>Nos encontraremos a las 8am en la Plaza Belgrano para comenzar el viaje. De allí,
+            partiremos directamente a <b>Rinconadillas</b>, un pequeño pueblo al costado del <b>Salar 
+            Guayatayoc</b>. Allí podremos hacer la travesía 4x4 y caminar sobre él.</ul>
+        <ul>Luego, seguiremos nuestro viaje a <b>Casabindo</b> un antiguo pueblo colonial con una
+            historia muy particular. Además de tomarnos tiempo para almorzar, tendremos un momento
+            para visitar su iglesia pintoresca y el mercado de artesanías.</ul>
+        <ul>Retomaremos el camino para dirigirnos a la joya de este viaje. Al llegar a <b>Abdon Castro
+            Tolay</b>, visitaremos el <b>Centro de Interpretación Arquelógica</b> para conocer de
+            que se trata este sitio. Luego iremos a <b>El Tolar</b> para que puedas sacarte fotos
+            en un paredón natural de película.</ul>
+        <ul>En el camino de regreso, haremos una breve parada para tener una buena merienda en el
+            pueblo de <b>Tres Pozos</b>, un pequeño pueblo pero con gran corazón.</ul>
+        <ul>Para finalizar, pasaremos por varios miradores para que nuestros ojos puedan contemplar
+            de una manera diferente esta increíble región. El primero será el <b>Mirador de Tres 
+            Pozos</b> y, el segundo, el <b>Mirador del Lipán</b>.</ul>
+            </div>,
     },
     {
         id: 'pxmg339UhgHVY9dW9TdV',
         nombre: 'Cusi Cusi',
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        descripcion: <div>
+            <p>Como viajar a otro planeta, esa es la posibilidad que te da <b>Cusi Cusi</b></p>
+        <ul>Nos encontraremos a las 8am en la Plaza Belgrano para comenzar el viaje. De allí,
+            partiremos directamente a la <b>Laguna de Pozuelos</b>, un increíble lago en medio
+            de la Puna jujeña, además del paisaje, podremos visitar la reserva de flamencos más
+            grandes del país, además de otras especies.</ul>
+        <ul>Luego, seguiremos nuestro viaje a <b>Rinconada</b> un antiguo y pintoresco pueblo 
+            colonial. Además de tomarnos tiempo para almorzar, tendremos un momento para visitar 
+            su iglesia San José y el mercado de artesanías.</ul>
+        <ul>Retomaremos viaje para dirigirnos a <b>Cusi Cusi</b>. En el camino podremos observar 
+            varias fallas geológicas siendo los volcanes los más importante. Una vez en nuestro, 
+            destino, haremos el check in en nuestro hotel. Tendrás tiempo libre hasta la noche, 
+            donde nos encontraremos para cenar junto al fogón y realizar avistaje a los astros.</ul>
+        <ul>Al día siguiente, luego de desayunar, nos prepararemos para ir a la excusión más 
+            deseada de este viaje: El trekking por el <b>Valle de la Luna</b>, aunque se asemeja 
+            más al planeta Marte. Luego nos acercaremos al <b>Volcán Casa Colorada</b>. Ya que 
+            esta inactivo, podremos apreciar su tierra de color rojizo.</ul>
+        <ul>Para finalizar, pasaremos brevemente por <b>Liviara</b> para tener nuestra última
+            comida antes de retornar a San Salvador.</ul>
+            </div>,
     },
     {
         id: 'pydUU15YaAob6oIvcrj9',
         nombre: 'Yavi',
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        descripcion: <div>
+            <p>La ciudad de <b>Yavi</b>, antigua capital de la región, conserva su encanto:</p>
+        <ul>Nos encontraremos a las 8am en la Plaza Belgrano para comenzar el viaje. De allí,
+            viajeremos directamente hacia la ciudad fronteriza de <b>La Quiaca</b>. realizaremos
+            un breve tour para contar su historia y nos detendremos a almorzar.</ul>
+        <ul>Retomaremos el camino hacia nuestro destino. Pero antes de llegar, haremos una parada 
+            para contemplar el <b>Cordón de los 8 hermanos</b>, una cadena de extrañas formaciones 
+            geológicas que abren la vista al valle de Yavi.</ul>
+        <ul>Una vez en <b>Yavi</b>, lo primero que haremos será acomodarnos en nuestro hotel. A 
+            continuación, daremos un breve paseo por los principales sitios para conocer su historia
+            como la <b>Iglesia de San Francisco</b> y la <b>Casa del Marqués de Tojo.</b>. El resto
+            de la tarde será libre para hacer lo que gustes.</ul>
+        <ul>A la noche nos reencontraremos en el hotel para hacer nuestra clásica <b>Caminata y 
+            Cena bajo las estrellas</b>. Como la Puna tiene un clima muy frío de noche, haremos 
+            un gran fogón para que no te pierdas uno de los cielos más increíbles de la región.</ul>
+        <ul>Al otro día, luego de nuestro desyuno, partiremos de vuelta a casa. Pero antes, tendremos
+            tiempo para visitar la población nativa de <b>Yavi Chico</b>, que cuenta con familias
+            asentadas en este lugar desde la colonia. En el camino a casa, haremos una parada para 
+            almorzar que estará a cuenta tuya.</ul>
+            </div>,
     },
     {
         id: 'azmro2C6XV99EmoUzmVg',
         nombre: 'Las Escaleras',
-        descripcion: <div><p>
-        A pocos kilometros de la capital, el valle sigue creando destinos turísticos:</p>
+        descripcion: <div>
+            <p>A pocos kilometros de la capital, el valle sigue creando destinos turísticos:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. En primer
             lugar, partiremos hasta la ciudad de <b>Palpalá</b> para conocer el pintoresco centro
             de un ciudad con mucha historia industrial y cultural.</ul>
@@ -328,8 +372,8 @@ const tours = [
     {
         id: 'azlztnA2QHCzj3NlOT0',
         nombre: 'Ocloyas',
-        descripcion: <div><p>
-        El paraje de <b>Ocloyas</b> se ubica en un corredor lleno de emprendimientos familiares:</p>
+        descripcion: <div>
+            <p>El paraje de <b>Ocloyas</b> se ubica en un corredor lleno de emprendimientos familiares:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
             al barrio salvadoreño de Los Perales para adentrarnos en el <b>Parque Botánico 
             Municipal</b>. En esta pequeña caminata podremos conocer, a través de nuestro
@@ -347,13 +391,13 @@ const tours = [
         <ul>De vuelta a la ciudad, nos detendremos antes de llegar para tener una deliciosa 
             merienda en <b>Finca La Colorada</b>, un emprendimiento gastrónomico reconocido por su
             casa de té.</ul>
-        </div>,
+            </div>,
     },
     {
         id: 'yaBAAe6l0QZfIwDPLKzt',
         nombre: 'San Rafael',
-        descripcion: <div><p>
-        <b>San Rafael</b> es un lugar poco explorado, pero sin duda te dejará sorprendido:</p>
+        descripcion: <div>
+            <p><b>San Rafael</b> es un lugar poco explorado, pero sin duda te dejará sorprendido:</p>
         <ul>Nos encontraremos a las 8:30am en la Plaza Belgrano para comenzar el viaje. De allí,
             viajeremos directamente a <b>San Pedro</b>. Haremos una parada en su centro histórico
             para conocer su historia, la Plaza Central y la iglesia de San Pedro. Luego, subiremos
@@ -371,13 +415,13 @@ const tours = [
         <ul>De vuelta a la ciudad, visitaremos la <b>Reserva Manantial de Vida</b>, una 
             iniciativa privada que promueve la agroecología y el naturismo. Ideal para tomar 
             nuestra merienda.</ul>
-        </div>,
+            </div>,
     },
     {
         id: 'ycpwBfNdAwGmfzZGcYL1',
         nombre: 'San Francisco',
-        descripcion: <div><p>
-        <b>San Francisco</b> es sin duda el corazón del Parque Nacional Calilegua:</p>
+        descripcion: <div>
+            <p><b>San Francisco</b>, el corazón del Parque Nacional Calilegua:</p>
         <ul>Nos encontraremos a las 8:00am en la Plaza Belgrano para comenzar el viaje. De allí,
             viajeremos directamente a <b>Calilegua</b> para visitar el <b>Centro de Información
             Calilegua</b> donde podremos conocer la historia del Parque, su naturaleza y las
@@ -394,19 +438,38 @@ const tours = [
             en sus aguas cálidas.</ul>
         <ul>Una vez finalizado este momento, retomaremos el camino de vuelta. Saliendo del parque,
             nos detendremos a almorzar en <b>Grl. Libertador San Martín</b>.</ul>
-        </div>,
+            </div>,
     },
     {
         id: 'yst6ASwktihMkJ7pbUFG',
         nombre: 'Santa Ana',
-        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-//        resumen: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        descripcion: <div>
+            <p>Los secretos incaicos están escondidos por los Andes, <b>Santa Ana</b> es nuestro:</p>
+        <ul>Nos encontraremos a las 8:00am en la Plaza Belgrano para comenzar el viaje. De allí,
+            viajeremos directamente a <b>Parque Nacional Calilegua</b>. Como lo atravesaremos es 
+            obligatorio que pasemos por el <b>Centro de Información Calilegua</b> donde podremos 
+            conocer las medidas de preocupación que debemos tener.</ul>
+        <ul>A continuación nos detendremos a almorzar en <b>San Francisco</b>. Además podremos conocer
+            el <b>Sendero de Peña Alta</b> para conocer el punto más alto del Parque. Antes de que caiga
+            la tarde, llegaremos a <b>Valle Grande</b> donde nos detendremos a descansar.</ul>
+        <ul>Al otro día, luego de nuestro desayuno, reemprenderemos el camino. Pasaremos por 
+            la <b>Cascada El Nogalar</b> y llegaremos a <b>Valle Colorado</b> donde podremos subir al
+            mirador para observar el paisaje. Una vez que descendamos, tendremos un típico almuerzo de
+            montaña.</ul>
+        <ul>Luego, iremos a la excursión principal de nuestro viaje: Comenzaremos la travesía a 
+            través de <b>Chapaq Ñam</b>, también conocidas como Las Escaleras de Quebrada Grande.
+            Estas antiguas escaleras incaicas nos llevarán por un camino lleno de historia, cultura
+            y naturaleza.</ul>
+        <ul>Al final del camino, nuestro trasporte nos esperará para llevarnos <b>Santa Ana</b>, 
+            donde dormiremos nuestra última noche. Al otro día, luego del desayuno, tendrás la mañana 
+            libre para recorrer el pueblo y almorzar. Pasado el mediodía, reemprenderemos la vuelta. </ul>
+            </div>,
     },
     {
         id: 'zbb8SrM0tFvSzYeFXqH7',
         nombre: 'Bermejo',
-        descripcion:<div><p>
-        Al otro lado de la frontera, en el departamento de Tarija, se encuentra la bella <b>Bermejo</b>:</p>
+        descripcion:<div>
+            <p>Al otro lado de la frontera, en el departamento de Tarija, se encuentra la bella <b>Bermejo</b>:</p>
         <ul>Nos encontraremos a las 8:00am en la Plaza Belgrano para comenzar el viaje. De allí,
             partiremos directamente a la frontera. Al llegar al paso de <b>Aguas Blancas</b> nos 
             detendremos para almorzar y hacer los trámites migratorios para cruzar hacia Bolivia.</ul>
@@ -420,13 +483,13 @@ const tours = [
             y fauna de la yunga Bolivia. También tendremos tiempo para adentrarnos en sus ríos y cascádas.</ul>
         <ul>Una vez finalizado retomaremos el camino de vuelta. Primero nos detendremos a almorzar
             a la vera del <b>Río Bermejo</b> para luego cruzar nuevamente a nuestro país.</ul>
-        </div>,
+            </div>,
     },
     {
         id: 'zbtxQGHR8LmORxVi24RE',
         nombre: 'Tupiza',
-        descripcion: <div><p>
-        La Puna boliviana tiene un sinnúmeros de lugares para visitar, el primero es <b>Tupiza</b>:</p>
+        descripcion: <div>
+            <p>La Puna boliviana tiene un sinnúmeros de lugares para visitar, el primero es <b>Tupiza</b>:</p>
         <ul>Nos encontraremos a las 6:00am en la Plaza Belgrano para comenzar el viaje. Lo primero que 
             haremos será tener un buen desayuno en el camino. De allí, partiremos directamente <b>La 
             Quiaca</b>. Al llegar, nos tomaremos un tiempo para recorrer este mítico pueblo fronterizo.</ul>
@@ -442,13 +505,13 @@ const tours = [
         <ul>Al finalizar, retomaremos el camino de vuelta a casa. Antes de cruzar la frontera, nos 
             detendremos a almorzar en la <b>Comunidad Tocloca</b> quienes nos esperarán con un auténtico
             menú puneño.</ul>
-        </div>,
+            </div>,
     },
     {
         id: 'zcaGufkUFv4bFcGxKZc6',
         nombre: 'San Pedro de Atacama',
-        descripcion: <div><p>
-        Acompañanos a descubir <b>San Pedro de Atacama</b> en un viaje mágico cruzando la Cordillera</p>
+        descripcion: <div>
+            <p>Acompañanos a descubir <b>San Pedro de Atacama</b> en un viaje mágico cruzando la Cordillera</p>
         <ul>Nos encontraremos a las 6:00am en la Plaza Belgrano para comenzar el viaje. Lo primero que 
             haremos será tener un buen desayuno en el camino. De allí, partiremos directamente a <b>Susques</b>,
             la principal ciudad de la Puna jujeño. Acá tomaremos un descanso y aprovecharemos a ver el 
@@ -465,7 +528,7 @@ const tours = [
         <ul>Al otro día, luego de desayunar, haremos un city tour por la <b>Plaza Principal</b>,
             el <b>Museo del Meteorito</b>, el <b>Pukará de Quitor</b> y <b>el Mirador Likan-Antay</b>.
             Al finalizar, retomaremos viaje de vuelta con una parada en el camino para almorzar.</ul>
-        </div>,
+            </div>,
     },
 ]
 
