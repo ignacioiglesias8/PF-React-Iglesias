@@ -24,22 +24,22 @@ const Description = ({id, nombre, subcategoria, precio, stock, imagen, descripci
         <Card.Body>
             <div className="cardBodyLeft">
                 <Card.Title><h2 id='cardSelectedTitle'>{nombre}</h2></Card.Title>
-                <div className="card-text" id="descripcion">
+                <div className="card-text" id="description">
                     {descripcion}
                 </div>
             </div>
             <div className="cardBodyRight">
                 <Card.Img variant="top" src={imagen} />
-                <Card.Text id="precio">
+                <Card.Text id="price">
                     ${precio}
                 </Card.Text> 
-                <Card.Text id="pasajeros">
+                <Card.Text id="passenger">
                     Máx. pasajeros: {stock}
                 </Card.Text>
-                <div className="contador">
+                <div className="counterContainer">
                     {
                         quantityAdded > 0 ? (
-                            <Link to='/cart' className='finalizar'>Terminar Compra</Link>
+                            <Link to='/cart' className='finish'>Terminar Compra</Link>
                         ) :(
                             <ItemCount initial={0} stock={stock} onAdd={handleOnAdd}/>
                         )

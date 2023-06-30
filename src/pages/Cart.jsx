@@ -22,7 +22,7 @@ export const Cart = () => {
             { cart.map(p => <CartItem key={p.id} {...p}/>)}
             <div className='checkoutContainer'>
                 <h3 className='checkoutItem'>Total: ${total}</h3>
-                <button onClick={() => clearCart()} className="cartItemClass" id="vaciar">Vaciar carrito</button>
+                <button onClick={() => clearCart()} className="cartItemClass" id="clean">Vaciar carrito</button>
                 <div>
                     <Link to='/checkout' className='Option + checkoutItem + cartButton'>Checkout</Link>
                 </div>

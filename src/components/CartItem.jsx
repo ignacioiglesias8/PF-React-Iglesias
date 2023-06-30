@@ -20,9 +20,9 @@ const CartItem = ({id, nombre, precio, quantity}) => {
             <Card.Title className='cartItemClass' id="cartItemTitle">
                 <h2>{nombre}</h2>
             </Card.Title>
-            <Card.Text className='cartItemClass' id="canrPasajeros">Pasajeros: {quantity}</Card.Text>
-            <Card.Text className='cartItemClass' id="unitario">Precio unitario: ${precio}</Card.Text>
-            <Card.Text className='cartItemClass' id="subtotal">Subtotal: ${subtotal}</Card.Text>
+            <Card.Text className='cartItemClass'>Pasajeros: {quantity}</Card.Text>
+            <Card.Text className='cartItemClass'>Precio unitario: ${precio}</Card.Text>
+            <Card.Text className='cartItemClass'>Subtotal: ${subtotal}</Card.Text>
             <button onClick= {handleRemoveItem} className="button + cartItemClass" id="remove">X</button>
             </Card.Body>
         </Card>

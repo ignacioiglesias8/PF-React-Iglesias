@@ -28,7 +28,6 @@ const Checkout=() => {
             const ids = cart.map(prod => prod.id)
             const productsRef = collection(db,'products')
             const productAddedFromFirestore = await getDocs(query(productsRef, where(documentId(), 'in', ids)))
-//hay que probar que esto funcione
             const {docs} = productAddedFromFirestore
             docs.forEach(doc =>{
                 const dataDoc = doc.data()

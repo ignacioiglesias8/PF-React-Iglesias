@@ -532,14 +532,6 @@ const tours = [
     },
 ]
 
-/*export const getTours = () => {
-    return new Promise((resolve) => {
-        setTimeout(() => {
-            resolve(tours)
-        }, 1000)
-    })
-}*/
-
 export const getTourById = (tourId) => {
     return new Promise((resolve) => {
         setTimeout(() => {

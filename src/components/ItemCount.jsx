@@ -4,13 +4,13 @@ import React, { useState } from "react";
 const ItemCount = ({stock, initial, onAdd}) => {
     const [quantity, setQuantity] = useState (initial) 
     
-    const sumar = () => {
+    const add = () => {
         if (quantity < stock){
             setQuantity(quantity + 1)
         }
     }
 
-    const restar = () => {
+    const subtract = () => {
         if (quantity > 1){
             setQuantity(quantity - 1)
         }
@@ -19,11 +19,11 @@ const ItemCount = ({stock, initial, onAdd}) => {
     return (
     <div className="counter">
         <div className="controls">
-            <Button label={"-"} customClass="button" handleCLick={restar}/>
+            <Button label={"-"} customClass="button" handleCLick={subtract}/>
             <span className="number">{quantity}</span>
-            <Button label={"+"} customClass="button" handleCLick={sumar}/>
+            <Button label={"+"} customClass="button" handleCLick={add}/>
         </div>
-        <div className="agregar">
+        <div className="add">
             <Button label={"Agregar"} customClass="button" handleCLick={()=>onAdd (quantity)} disabled={!stock}/>
         </div>
     </div>

@@ -68,7 +68,7 @@
 #home {
   width: 100%;
   height: 30.1em;
-  background-image: url(./assets/img/portada.jpg);
+  background-image: url(./assets/img/landing.jpg);
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -138,12 +138,12 @@
   justify-content: center;
 }
 
-.card-text#pasajeros{
+.card-text#passenger{
   font-size: 0.5em;
   margin: 0.4em;
 }
 
-.card-text#resumen{
+.card-text#summary{
   font-style: italic;
   font-size: 0.6em;
 }
@@ -155,7 +155,7 @@
   justify-content: space-around;
 }
 
-.card-text#precio{
+.card-text#price{
   height: 0.8em;
   font-weight: bold;
   font-size: 0.8em;
@@ -213,7 +213,7 @@
   font-size: 2em ;
 }
 
-.itemDescriptionContainer .card-text#descripcion{
+.itemDescriptionContainer .card-text#description{
   font-style: italic;
   font-size: 0.55em;
   text-align: justify;
@@ -228,7 +228,7 @@
   margin-top: 2em;
 }
 
-.itemDescriptionContainer .card-text#precio{
+.itemDescriptionContainer .card-text#price{
   height: 1.6em;
   width: 96%;
   margin: 0.5em 0.2em;
@@ -238,7 +238,7 @@
   text-justify: center;
 }
 
-.itemDescriptionContainer .card-text#pasajeros{
+.itemDescriptionContainer .card-text#passenger{
   height: 1.5em;
   width: 96%;
   margin: 0.2em;
@@ -248,7 +248,7 @@
 }
 
 /*ItemCount*/
-.contador{
+.counterContainer{
   width: 90%;
   margin: 0.5em;
   display: flex;
@@ -276,7 +276,7 @@
   justify-content:space-around;
 }
 
-.agregar{
+.add{
   width: 55%;
   height: 2em;
   margin: 0.2em;
@@ -302,7 +302,7 @@
   line-height: 0.9em;
 }
 
-.agregar .button{
+.add .button{
   width: 90%;
   height: 1.8em;
   margin: 0.4em;
@@ -311,7 +311,7 @@
   line-height: 0.9em;
 }
 
-.finalizar{
+.finish{
   width: 10em;
   background-color: green;
   color: white;
@@ -325,7 +325,7 @@
   justify-content: center;
 }
 
-.finalizar:hover{
+.finish:hover{
   color:white;
   opacity: 75%;
 }
@@ -361,10 +361,6 @@
   display: inline-block;
 }
 
-#cantPasajeros{
-  font-size: 1.2em;
-}
-
 #remove{
   background-color: green;
   color: white;
@@ -386,7 +382,7 @@
   margin: 1em 5em;
 }
 
-#vaciar {
+#clean {
   width: 6.8em;
   height: 2.5em;
   margin: 1em 2.5em;
@@ -396,7 +392,7 @@
   line-height: 1em;
 }
 
-#vaciar:hover{
+#clean:hover{
   color: lightgreen;
 }
 
