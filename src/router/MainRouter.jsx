@@ -7,8 +7,8 @@ import ItemDescriptionContainer from '../components/ItemDescriptionContainer';
 import Home from "../pages/Home";
 import Cart from "../pages/Cart";
 import Checkout from "../pages/Checkout";
-import Excursiones from '../pages/Excursiones';
-import { getTourBySubCategory } from "../listadoTours";
+import Tours from '../pages/Tours';
+import { getTourBySubCategory } from "../assets/txt/toursText";
 
 const MainRouter = () => {
   const { subCategoryId } = useParams();
@@ -18,7 +18,7 @@ const MainRouter = () => {
         <NavBar />
         <Routes>
           <Route exact path="/" element= {<Home/>}/>
-          <Route path="/excursiones" element= {<Excursiones/>}/> 
+          <Route path="/tours" element= {<Tours/>}/> 
           <Route path='/item/:itemId' element= {<ItemDescriptionContainer/>}/> 
           <Route path='/subcategoria/:subCategoryId' element={<ItemListContainer title={subCategoryId} getTours={getTourBySubCategory} />}/> 
           <Route exact path="/cart" element= {<Cart/>}/>

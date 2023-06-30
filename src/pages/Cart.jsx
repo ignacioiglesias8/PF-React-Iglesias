@@ -10,7 +10,7 @@ export const Cart = () => {
         return (
             <div className='cartItemContainer'>
                 <h1>No hay items en el carrito</h1>
-                <Link to='/excursiones' className='button + cartItemClass + cartButton' id="backButton">
+                <Link to='/tours' className='button + cartItemClass + cartButton' id="backButton">
                     Excursiones
                 </Link>
             </div>

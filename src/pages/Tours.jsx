@@ -1,7 +1,7 @@
 import React from "react";
 import ItemListContainer from "../components/ItemListContainer";
 
-const Excursiones = () => {
+const Tours = () => {
     return (
         <div>
             <ItemListContainer title="Todos los Tours"/>
@@ -9,4 +9,4 @@ const Excursiones = () => {
     );
 };
 
-export default Excursiones;
+export default Tours;

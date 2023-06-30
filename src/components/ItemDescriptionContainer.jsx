@@ -3,7 +3,7 @@ import Description from "./Description";
 import {useParams} from 'react-router-dom';
 import {doc, getDoc, getFirestore} from "firebase/firestore";
 import Loader from "./Loader";
-import {getTourById} from "../listadoTours";
+import {getTourById} from "../assets/txt/toursText";
 
 const ItemDescriptionContainer = () => {
     const[pack, setPack] = useState(null)
