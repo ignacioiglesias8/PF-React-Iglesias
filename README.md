@@ -1,17 +1,19 @@
 # Proyecto Final - React
 
-Este es el repositorio del Proyecto Final desarrollado con React. El proyecto tiene como objetivo la aprobación del curso de React Js impartido por Coderhourse.
+Este es el repositorio del Proyecto Final desarrollado con React. El proyecto tiene como objetivo la aprobación del curso de React Js impartido por Coderhourse, .
 
 
 ## Autor
 
 Ignacio Iglesias
+
 ignacioiglesias8@gmail.com
 
 
 ## Cuerpo docente
 
 Profesor: Daniel Alanis
+
 Tutor: Rosendo Alves
 
 
@@ -21,11 +23,11 @@ Sigue estos pasos para configurar y ejecutar el proyecto localmente:
 
 1. Clona el repositorio en tu máquina local:
 
-git clone https://github.com/ignacioiglesias8/PF-React-Iglesias.git
+    git clone https://github.com/ignacioiglesias8/PF-React-Iglesias.git
 
 2. Navega al directorio del proyecto:
 
-cd PF-React-Iglesias
+    cd PF-React-Iglesias
 
 3. Instala las dependencias del proyecto:
 
