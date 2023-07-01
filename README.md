@@ -23,19 +23,19 @@ Sigue estos pasos para configurar y ejecutar el proyecto localmente:
 
 1. Clona el repositorio en tu máquina local:
 
-    git clone https://github.com/ignacioiglesias8/PF-React-Iglesias.git
+        git clone https://github.com/ignacioiglesias8/PF-React-Iglesias.git
 
 2. Navega al directorio del proyecto:
 
-    cd PF-React-Iglesias
+        cd PF-React-Iglesias
 
 3. Instala las dependencias del proyecto:
 
-npm install
+        npm install
 
 4. Inicia la aplicación:
 
-npm start
+        npm start
 
 La aplicación se abrirá en tu navegador en http://localhost:3000.
 
@@ -43,6 +43,7 @@ La aplicación se abrirá en tu navegador en http://localhost:3000.
 ## Direción local
 
 http://localhost:3000/
+
 
 ## Estructura del Proyecto
 
@@ -127,15 +128,15 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
 
 2. Crea una rama para tu nueva funcionalidad:
 
-git checkout -b nueva-funcionalidad
+        git checkout -b nueva-funcionalidad
 
 3. Realiza tus cambios y realiza commit de los mismos:
 
-git commit -m "Agregar nueva funcionalidad"
+        git commit -m "Agregar nueva funcionalidad"
 
 4. Envía tus cambios al repositorio remoto:
 
-git push origin nueva-funcionalidad
+        git push origin nueva-funcionalidad
 
 5. Abre una pull request en GitHub.
 
