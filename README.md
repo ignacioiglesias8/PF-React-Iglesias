@@ -52,73 +52,76 @@ El proyecto está organizado de la siguiente manera:
     public/: Este directorio contiene los archivos públicos de la aplicación.
     |
     |---src/: Este directorio contiene el código fuente de la aplicación.
-        |
-        |---assets/: En esta se encuentran las subcarpetas para almacenar archivos estáticos.
-        |   |
-        |   |---img/: Contenedor de imágenes.
-        |   |
-        |   |---logo/: Contenedor de logos.
-        |   |
-        |   |---txt/: Contenedor archivos o bases de datos con textos.
-        |       |
-        |       |---toursText.js: Base de dato con las descripciones de los Tours.
-        |
-        |---components/: Aquí se encuentran los componentes reutilizables de la aplicación.
-        |   |
-        |   |---Button.jsx: Gurda la configuración del Button.
-        |   |
-        |   |---CartItem.jsx: Contiene la plantilla de tours seleccionados en la page Cart.
-        |   |
-        |   |---CartWidget.jsx: Contiene la configuración del CartWidget del Navbar.
-        |   |
-        |   |---CheckoutForm.jsx: Contiene el formulario de Checkout de la page Checkout.
-        |   |
-        |   |---Description.jsx: Contiene la plantilla de descripciones del ItemDescriptionContainer.
-        |   |
-        |   |---Footer.jsx: Guarda la configuración del Footer: Links y routes.
-        |   |
-        |   |---Item.jsx: Contiene la plantilla de cards del ItemListContainer.
-        |   |
-        |   |---ItemCount.jsx: Guarda la configuración del counter en cada Description.
-        |   |
-        |   |---ItemDescriptionContainer.jsx: Guarda la configuración principal del contenedor de cada tour.
-        |   |
-        |   |---ItemList.jsx: Mapea la base de datos para construir las cards en el ItemListContainer.
-        |   |
-        |   |---ItemListContainer.jsx: Guarda la configuración principal del contenedor de la page Tour así como también del filtrado por subcategorias.
-        |   |
-        |   |---Loader.jsx: Contiene la configuración del Loader.
-        |   |
-        |   |---NavBar.jsx: Guarda la configuración del Navbar (Links, routes) y contiene otros elementos como Cartwidget y logo. 
-        |
-        |---context/: Guarda el archivo que contiene el patrón de contexto.
-        |   |
-        |   |---Context: Componente que configura el contexto de la aplicación.
-        |
-        |---pages/: Este directorio contiene las diferentes páginas de la aplicación.
-        |   |
-        |   |---Cart.jsx: Componente que configura la página del Cart.
-        |   |
-        |   |---Checkout.jsx: Componente que configura la página del formulario de Checkout.
-        |   |
-        |   |---Home.jsx: Componente que configura la página de inicio o landing.
-        |   |
-        |   |---Tours.jsx: Componente que configura la página donde se encuentran los productos.
-        |
-        |---router/: Contiene el componente relacionado a la configuración de las rutas.
-        |   |
-        |   |---MainRouter: Componente que configura las rutas de la aplicación.
-        |
-        |---style/: Aquí se encuentran los estilos CSS y archivos relacionados.
-        |   |
-        |   |---App.css: Archivo que contiene reglas CSS que se aplican a todos los componentes.
-        |   |
-        |   |---Index.css: Archivo que contiene reglas CSS para definir estilos globales.
-        |
-        |---App.js: El punto de entrada principal de la aplicación.
-        |
-        |---index.js: El archivo que renderiza la aplicación en el navegador.
-
+    |    |
+    |    |---assets/: En esta se encuentran las subcarpetas para almacenar archivos estáticos.
+    |    |   |
+    |    |   |---img/: Contenedor de imágenes.
+    |    |   |
+    |    |   |---logo/: Contenedor de logos.
+    |    |   |
+    |    |   |---txt/: Contenedor archivos o bases de datos con textos.
+    |    |       |
+    |    |       |---toursText.js: Base de dato con las descripciones de los Tours.
+    |    |
+    |    |---components/: Aquí se encuentran los componentes reutilizables de la aplicación.
+    |    |   |
+    |    |   |---Button.jsx: Configuración del Button.
+    |    |   |
+    |    |   |---CartItem.jsx: Plantilla de tours seleccionados en la page Cart.
+    |    |   |
+    |    |   |---CartWidget.jsx: Configuración del CartWidget del Navbar.
+    |    |   |
+    |    |   |---CheckoutForm.jsx: Formulario de Checkout de la page Checkout.
+    |    |   |
+    |    |   |---CustomAlert.jsx: Alert que advierte que un tour ya fue agregado al carrito.
+    |    |   |
+    |    |   |---Description.jsx: Plantilla de descripciones del ItemDescriptionContainer.
+    |    |   |
+    |    |   |---Footer.jsx: Configuración del Footer: Links y routes.
+    |    |   |
+    |    |   |---Item.jsx: Plantilla de cards del ItemListContainer.
+    |    |   |
+    |    |   |---ItemCount.jsx: Configuración del counter en cada Description.
+    |    |   |
+    |    |   |---ItemDescriptionContainer.jsx: Configuración principal del contenedor de cada tour.
+    |    |   |
+    |    |   |---ItemList.jsx: Map de la base de datos para construir las cards en el ItemListContainer.
+    |    |   |
+    |    |   |---ItemListContainer.jsx: Configuración principal del contenedor de la page Tour así como también del filtrado por subcategorias.
+    |    |   |
+    |    |   |---Loader.jsx: Configuración del Loader.
+    |    |   |
+    |    |   |---NavBar.jsx: Configuración del Navbar (Links, routes) y contiene otros elementos como Cartwidget y logo. 
+    |    |
+    |    |---context/: Directorio contenedor del patrón de contexto.
+    |    |   |
+    |    |   |---Context: Configuración del contexto de la aplicación.
+    |    |
+    |    |---pages/: Directorio contenedor de las diferentes páginas de la aplicación.
+    |    |   |
+    |    |   |---Cart.jsx: Componente que configura la página del Cart.
+    |    |   |
+    |    |   |---Checkout.jsx: Componente que configura la página del formulario de Checkout.
+    |    |   |
+    |    |   |---Home.jsx: Componente que configura la página de inicio o landing.
+    |    |   |
+    |    |   |---Tours.jsx: Componente que configura la página donde se encuentran los productos.
+    |    |
+    |    |---router/: Directorio contenedor del componente relacionado a la configuración de las rutas.
+    |    |   |
+    |    |   |---MainRouter: Configuración de las rutas de la aplicación.
+    |    |
+    |    |---style/: Aquí se encuentran los estilos CSS y archivos relacionados.
+    |    |   |
+    |    |   |---App.css: Archivo que contiene reglas CSS que se aplican a todos los componentes.
+    |    |   |
+    |    |   |---Index.css: Archivo que contiene reglas CSS para definir estilos globales.
+    |    |
+    |    |---App.jsx: Define la estructura y el comportamiento general de la interfaz de usuario.
+    |    |
+    |    |---index.js: El archivo que renderiza la aplicación en el navegador.
+    |    
+    |---index.html: Punto de entrada principal de la aplicación.    
 
 ## Contribución
 
