@@ -50,13 +50,21 @@ http://localhost:3000/
 El proyecto está organizado de la siguiente manera:
 
 public/: Este directorio contiene los archivos públicos de la aplicación, como el archivo HTML base y otros recursos estáticos.
+
     |
+
     |---src/: Este directorio contiene el código fuente de la aplicación.
+
         |
+
         |---assets/: En esta se encuentran las subcarpetas para almacenar archivos estáticos.
+
         |   |
+
         |   |---img/: Contenedor de imágenes.
+
         |   |
+
         |   |---logo/: Contenedor de logos.
         |   |
         |   |---txt/: Contenedor archivos o bases de datos con textos.
