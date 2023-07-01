@@ -1,4 +1,5 @@
-import React, { createContext, useState } from 'react'
+import React, { createContext, useState } from 'react';
+import CustomAlert from '../components/CustomAlert';
 
 export const CartContext = createContext ({
     cart: [],
@@ -16,7 +17,7 @@ export const CartProvider = ({children}) => {
             updateTotal(quantity * item.precio)
             setTotalQuantity((prevTotalQuantity) => prevTotalQuantity + quantity)
         }else{
-            console.error('Ya agregaste a este producto')
+            CustomAlert();
         }
     }
 

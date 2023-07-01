@@ -11,11 +11,17 @@ const ItemCount = ({stock, initial, onAdd}) => {
     }
 
     const subtract = () => {
-        if (quantity > 1){
+        if (quantity >= 1){
             setQuantity(quantity - 1)
         }
     }
     
+    const handleAdd = () => {
+        if (quantity > 0) {
+            onAdd(quantity);
+        }
+    };
+
     return (
     <div className="counter">
         <div className="controls">
@@ -24,7 +30,7 @@ const ItemCount = ({stock, initial, onAdd}) => {
             <Button label={"+"} customClass="button" handleCLick={add}/>
         </div>
         <div className="add">
-            <Button label={"Agregar"} customClass="button" handleCLick={()=>onAdd (quantity)} disabled={!stock}/>
+            <Button label={"Agregar"} customClass="button" handleCLick={handleAdd} disabled={!stock}/>
         </div>
     </div>
     );
