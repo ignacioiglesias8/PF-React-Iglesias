@@ -50,6 +50,7 @@ http://localhost:3000/
 El proyecto está organizado de la siguiente manera:
 
 public/: Este directorio contiene los archivos públicos de la aplicación, como el archivo HTML base y otros recursos estáticos.
+
     |
     |---src/: Este directorio contiene el código fuente de la aplicación.
         |
